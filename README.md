@@ -1,6 +1,6 @@
 # Flowgorithm (MAC OSX)
 
-**WORKING ON WITH HIGH SIERRA. *May also work with*; Mohave 10.14 , Sierra 10.12 and El Capitan 10.11.**
+**WORKING  FOR ME ON HIGH SIERRA. *May also work with*; Mohave 10.14 , Sierra 10.12 and El Capitan 10.11.**
 
 
 *Flowgorithm is a graphical authoring tool which allows users to write and execute programs using flowcharts. The approach is designed to emphasize the algorithm rather than the syntax of a specific programming language. The flowchart can be converted to several major programming languages.* 
