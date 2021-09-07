@@ -1,0 +1,59 @@
+; File generated automatically from /Users/gcenx/Downloads/sources/wine/./dlls/httpapi/httpapi.spec; do not edit!
+
+LIBRARY httpapi.dll
+
+EXPORTS
+  HttpAddFragmentToCache@0 @1 PRIVATE
+  HttpAddUrl@12 @2
+  HttpAddUrlToConfigGroup@0 @3 PRIVATE
+  HttpCancelHttpRequest@0 @4 PRIVATE
+  HttpCreateAppPool@0 @5 PRIVATE
+  HttpCreateConfigGroup@0 @6 PRIVATE
+  HttpCreateFilter@0 @7 PRIVATE
+  HttpCreateHttpHandle@8 @8
+  HttpCreateServerSession@12 @9
+  HttpCloseServerSession@8 @10
+  HttpDeleteConfigGroup@0 @11 PRIVATE
+  HttpDeleteServiceConfiguration@20 @12
+  HttpFilterAccept@0 @13 PRIVATE
+  HttpFilterAppRead@0 @14 PRIVATE
+  HttpFilterAppWrite@0 @15 PRIVATE
+  HttpFilterAppWriteAndRawRead@0 @16 PRIVATE
+  HttpFilterClose@0 @17 PRIVATE
+  HttpFilterRawRead@0 @18 PRIVATE
+  HttpFilterRawWrite@0 @19 PRIVATE
+  HttpFilterRawWriteAndAppRead@0 @20 PRIVATE
+  HttpFlushResponseCache@0 @21 PRIVATE
+  HttpGetCounters@0 @22 PRIVATE
+  HttpInitialize@12 @23
+  HttpInitializeServerContext@0 @24 PRIVATE
+  HttpOpenAppPool@0 @25 PRIVATE
+  HttpOpenControlChannel@0 @26 PRIVATE
+  HttpOpenFilter@0 @27 PRIVATE
+  HttpQueryAppPoolInformation@0 @28 PRIVATE
+  HttpQueryConfigGroupInformation@0 @29 PRIVATE
+  HttpQueryControlChannelInformation@0 @30 PRIVATE
+  HttpQueryServerContextInformation@0 @31 PRIVATE
+  HttpQueryServiceConfiguration@32 @32
+  HttpReadFragmentFromCache@0 @33 PRIVATE
+  HttpReceiveClientCertificate@0 @34 PRIVATE
+  HttpReceiveHttpRequest@0 @35 PRIVATE
+  HttpReceiveHttpResponse@0 @36 PRIVATE
+  HttpReceiveRequestEntityBody@0 @37 PRIVATE
+  HttpRemoveAllUrlsFromConfigGroup@0 @38 PRIVATE
+  HttpRemoveUrl@0 @39 PRIVATE
+  HttpRemoveUrlFromConfigGroup@0 @40 PRIVATE
+  HttpSendHttpRequest@0 @41 PRIVATE
+  HttpSendHttpResponse@0 @42 PRIVATE
+  HttpSendRequestEntityBody@0 @43 PRIVATE
+  HttpSendResponseEntityBody@0 @44 PRIVATE
+  HttpSetAppPoolInformation@0 @45 PRIVATE
+  HttpSetConfigGroupInformation@0 @46 PRIVATE
+  HttpSetControlChannelInformation@0 @47 PRIVATE
+  HttpSetServerContextInformation@0 @48 PRIVATE
+  HttpSetServiceConfiguration@20 @49
+  HttpShutdownAppPool@0 @50 PRIVATE
+  HttpShutdownFilter@0 @51 PRIVATE
+  HttpTerminate@8 @52
+  HttpWaitForDemandStart@0 @53 PRIVATE
+  HttpWaitForDisconnect@0 @54 PRIVATE

@@ -1,1 +1,0 @@
-1: Microsoft .NET Framework 4 Client Profile 2: {3C3901C5-3455-3E0A-A214-0B093A5070A6} 

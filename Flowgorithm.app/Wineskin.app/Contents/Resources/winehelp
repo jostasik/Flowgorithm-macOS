@@ -1,0 +1,70 @@
+#!/bin/sh
+#
+# Wrapper script for using a Wineskin Engine like Winehq wine bundle
+#
+# Copyright (C) 2021 Dean M Greer
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
+#
+
+cd "$(dirname "$0")"
+export WINESKIN_APP="$PWD"          # We need this to be first in $PATH as it contains wine wrapper for winetricks compatability and also 7z,cabextract & unrar
+
+cd "../../../Contents/Resources"    # The wrappers WINEPREFIX location
+export WINESKINWINEPREFIX="$PWD"    # The wrappers WINEPREFIX to a custom export
+cd "../SharedSupport/wine"          # The wrappers Engine
+export WINEPATH="$PWD"
+cd "bin"
+export WINEBINPATH="$PWD"
+export PATH="$WINESKIN_APP:$PWD:$PATH"
+cd "../../../Frameworks"
+export WINESKIN_LIB_PATH_FOR_FALLBACK="$WINESKIN_LIB_PATH_FOR_FALLBACK:$PWD:$HOME/Library/Application Support/Wineskin/Runtime:/opt/local/lib:${WINEPATH}/lib:${WINEPATH}/lib64:/usr/lib:/usr/libexec:/usr/lib/system:/opt/X11/lib"
+export DYLD_FALLBACK_LIBRARY_PATH="${WINESKIN_LIB_PATH_FOR_FALLBACK}"
+export WINEDEBUG="err+all,warn-all,fixme+all,trace-all,fixme-esync"
+cd "$HOME"
+if [ -x "$(command -v "${WINEBINPATH}"/wine64)" ]; then
+    export WINE64="${WINEBINPATH}/wine64"
+    export WINELOADER64="${WINE64}"
+fi
+if [[ ${OSTYPE:6} -ge 19 && -x "$(command -v "$WINEBINPATH"/wine32on64)" ]]; then
+    export NAME=wine32on64
+    export WINE="${WINEBINPATH}/wine32on64"
+else
+#elif [[ ${OSTYPE:6} -lt 19 && -x "$(command -v "$WINESKINPATH"/wine)" ]]; then
+    export NAME=wine
+    export WINE="${WINEBINPATH}/wine"
+fi
+export WINELOADER="${WINE}"
+export WINESERVER="${WINEBINPATH}/wineserver"
+
+# This section was taken from Winehq and tweaked to show the correct binary name
+clear
+echo "################################################################################"
+echo "#                           Wine Is Not an Emulator                            #"
+echo "################################################################################"
+echo ""
+echo " Welcome to $($NAME --version)."
+echo   ""
+echo   " In order to start a program:"
+printf "   .exe:\e[1;31m $NAME\e[0m\e[1;90m program.exe\e[0m\n"
+printf "   .msi:\e[1;31m $NAME msiexec /i\e[0m\e[1;90m program.msi\e[0m\n"
+echo   ""
+echo   " If you want to configure wine:"
+printf "  \e[1;31m $NAME winecfg\e[0m\n"
+echo   ""
+echo   " To get information about app compatibility:"
+printf "  \e[1;31m appdb\e[0m\e[1;90m Program Name\e[0m\n"
+echo   ""
+env /usr/bin/arch -x86_64 /bin/sh --login
