@@ -13,6 +13,8 @@
 # BACKGROUND
 One of my classes this semester is structured around Flowgorithm. About half the kids in my class only have access to MacBooks, and they were having an awful time trying to access the program. Ultimately, connecting to our school's Windows 10 Remote Desktop Server was our Professors solution. But even then... just imagine how bad an aging Macbook would handle that overhead. 
 It was giving students a misleading experience, out of what IS a well-designed Program.
-I couldn't find any clear working guides on how to run Flowgorithm on a mac. It was such a mess trying to juggle all the different wine-related port tools.. Im hoping other people can avoid that by just using the Flowgorithm Mac app I packaged into a native contained Mac applicatione!
+I couldn't find any clear working guides on how to run Flowgorithm on a mac. It was such a mess trying to juggle all the different wine-related port tools.. 
+
+### Im hoping other people can avoid that by just using this Flowgorithm Mac port!
 
 Flowgorithm Website: http://www.flowgorithm.org/
