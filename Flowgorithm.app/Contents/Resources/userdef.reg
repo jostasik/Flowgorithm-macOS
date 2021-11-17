@@ -3,8 +3,8 @@ WINE REGISTRY Version 2
 
 #arch=win64
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1631057576
-#time=1d7a440afa8bd54
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1637151367
+#time=1d7dbace610999a
 "Administrative Tools"="C:\\users\\crossover\\Start Menu\\Programs\\Administrative Tools"
 "AppData"="C:\\users\\Wineskin\\Application Data"
 "Cache"="C:\\users\\Wineskin\\Local Settings\\Temporary Internet Files"
@@ -33,8 +33,8 @@ WINE REGISTRY Version 2
 "{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\crossover\\AppData\\LocalLow"
 "{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\crossover\\Links"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1631057554
-#time=1d7a440a2d28254
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1637151356
+#time=1d7dbacdf969e02
 "Administrative Tools"=str(2):"%USERPROFILE%\\Start Menu\\Programs\\Administrative Tools"
 "AppData"=str(2):"%USERPROFILE%\\Application Data"
 "Cache"=str(2):"%USERPROFILE%\\Local Settings\\Temporary Internet Files"

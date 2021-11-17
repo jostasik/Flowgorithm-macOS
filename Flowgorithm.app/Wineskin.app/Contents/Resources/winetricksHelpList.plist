@@ -808,83 +808,6 @@
 			<key>WS-Name</key>
 			<string>d3dxof</string>
 		</dict>
-		<key>d9vk</key>
-		<dict>
-			<key>WS-Description</key>
-			<string>Vulkan-based D3D9/D3D10/D3D11 implementation for Linux / Wine (latest)</string>
-			<key>WS-Name</key>
-			<string>d9vk</string>
-		</dict>
-		<key>d9vk010</key>
-		<dict>
-			<key>WS-Description</key>
-			<string>Vulkan-based D3D9/D3D10/D3D11 implementation for Linux / Wine (0.10)</string>
-			<key>WS-Name</key>
-			<string>d9vk010</string>
-		</dict>
-		<key>d9vk011</key>
-		<dict>
-			<key>WS-Description</key>
-			<string>Vulkan-based D3D9/D3D10/D3D11 implementation for Linux / Wine (0.11)</string>
-			<key>WS-Name</key>
-			<string>d9vk011</string>
-		</dict>
-		<key>d9vk012</key>
-		<dict>
-			<key>WS-Description</key>
-			<string>Vulkan-based D3D9/D3D10/D3D11 implementation for Linux / Wine (0.12)</string>
-			<key>WS-Name</key>
-			<string>d9vk012</string>
-		</dict>
-		<key>d9vk013</key>
-		<dict>
-			<key>WS-Description</key>
-			<string>Vulkan-based D3D9/D3D10/D3D11 implementation for Linux / Wine (0.13)</string>
-			<key>WS-Name</key>
-			<string>d9vk013</string>
-		</dict>
-		<key>d9vk013f</key>
-		<dict>
-			<key>WS-Description</key>
-			<string>Vulkan-based D3D9/D3D10/D3D11 implementation for Linux / Wine (0.13f)</string>
-			<key>WS-Name</key>
-			<string>d9vk013f</string>
-		</dict>
-		<key>d9vk020</key>
-		<dict>
-			<key>WS-Description</key>
-			<string>Vulkan-based D3D9/D3D10/D3D11 implementation for Linux / Wine (0.20)</string>
-			<key>WS-Name</key>
-			<string>d9vk020</string>
-		</dict>
-		<key>d9vk021</key>
-		<dict>
-			<key>WS-Description</key>
-			<string>Vulkan-based D3D9/D3D10/D3D11 implementation for Linux / Wine (0.21)</string>
-			<key>WS-Name</key>
-			<string>d9vk021</string>
-		</dict>
-		<key>d9vk022</key>
-		<dict>
-			<key>WS-Description</key>
-			<string>Vulkan-based D3D9/D3D10/D3D11 implementation for Linux / Wine (0.22)</string>
-			<key>WS-Name</key>
-			<string>d9vk022</string>
-		</dict>
-		<key>d9vk030</key>
-		<dict>
-			<key>WS-Description</key>
-			<string>Vulkan-based D3D9/D3D10/D3D11 implementation for Linux / Wine (0.30)</string>
-			<key>WS-Name</key>
-			<string>d9vk030</string>
-		</dict>
-		<key>d9vk040</key>
-		<dict>
-			<key>WS-Description</key>
-			<string>Vulkan-based D3D9/D3D10/D3D11 implementation for Linux / Wine (0.40.1)</string>
-			<key>WS-Name</key>
-			<string>d9vk040</string>
-		</dict>
 		<key>dbghelp</key>
 		<dict>
 			<key>WS-Description</key>
@@ -1633,6 +1556,13 @@
 			<string>Vulkan-based D3D9/D3D10/D3D11 implementation for Linux / Wine (1.9.1)</string>
 			<key>WS-Name</key>
 			<string>dxvk191</string>
+		</dict>
+		<key>dxvk192</key>
+		<dict>
+			<key>WS-Description</key>
+			<string>Vulkan-based D3D9/D3D10/D3D11 implementation for Linux / Wine (1.9.2)</string>
+			<key>WS-Name</key>
+			<string>dxvk192</string>
 		</dict>
 		<key>esent</key>
 		<dict>
@@ -2466,6 +2396,13 @@
 			<string>MS Visual J# 2.0 SE libraries (requires dotnet20)</string>
 			<key>WS-Name</key>
 			<string>vjrun20</string>
+		</dict>
+		<key>vkd3d</key>
+		<dict>
+			<key>WS-Description</key>
+			<string>Vulkan-based D3D12 implementation for Linux / Wine (latest)</string>
+			<key>WS-Name</key>
+			<string>vkd3d</string>
 		</dict>
 		<key>vulkanrt121412</key>
 		<dict>

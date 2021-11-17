@@ -22,15 +22,15 @@
 	<key>CFBundleIconFile</key>
 	<string>Wineskin.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.Flowgorithm64583472550.wineskin</string>
+	<string>com.Flowgorithm42270895.wineskin</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>CFBundleName</key>
-	<string>FG</string>
+	<string>Flowgorithm</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.30.3</string>
+	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>Wineskin 2.9.0.8-3</string>
 	<key>CLI Custom Commands</key>
@@ -38,8 +38,6 @@
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>Disable CPUs</key>
-	<false/>
-	<key>Fullscreen</key>
 	<false/>
 	<key>Gamma Correction</key>
 	<string>default</string>
@@ -79,9 +77,7 @@
 	<key>Program Flags</key>
 	<string></string>
 	<key>Program Name and Path</key>
-	<string>/Program Files/Flowgorithm/Flowgorithm.exe</string>
-	<key>Resolution</key>
-	<string>novdx24sleep68235032</string>
+	<string>/Program Files/Flowgorithm 2.30.3 64bit/Flowgorithm.exe</string>
 	<key>Skip Mono &amp; Gecko</key>
 	<true/>
 	<key>Symlink Desktop</key>
@@ -100,18 +96,14 @@
 	<true/>
 	<key>Try To Use GPU Info</key>
 	<false/>
-	<key>Use RandR</key>
-	<true/>
 	<key>Use XQuartz</key>
-	<true/>
+	<false/>
 	<key>WINEDEBUG=</key>
 	<string>err+all,fixme+all,-esync,-plugplay</string>
 	<key>Winetricks disable logging</key>
 	<string>1</string>
 	<key>Winetricks silent</key>
 	<integer>1</integer>
-	<key>force Installer to normal windows</key>
-	<integer>0</integer>
 	<key>set max files</key>
 	<false/>
 	<key>use start.exe</key>
