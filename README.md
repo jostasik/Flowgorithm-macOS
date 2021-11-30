@@ -7,10 +7,13 @@
 # Installation
 1. Download and extract the most recent ZIP file. 
 2. Move the app to /Applications (Optional)
-3. Enjoy!
+3. Right Click + Open! 
+Enjoy!
 
-##If it says "App is Damaged", enter this in terminal to run it; 
-  sudo xattr -rds com.apple.quarantine /Applications/Flowgorithm.app
+
+## If it says "App is Damaged" enter this in terminal:
+
+sudo xattr -rds com.apple.quarantine /Applications/Flowgorithm.app
 
 
 # BACKGROUND
