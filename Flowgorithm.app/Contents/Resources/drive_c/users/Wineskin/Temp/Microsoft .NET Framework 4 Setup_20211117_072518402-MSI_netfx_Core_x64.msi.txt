@@ -1,2 +1,0 @@
-1: Microsoft .NET Framework 4 Client Profile 2: {F5B09CFD-F0B2-36AF-8DF4-1DF6B63FC7B4} 
-1: Microsoft .NET Framework 4 Client Profile 2: {F5B09CFD-F0B2-36AF-8DF4-1DF6B63FC7B4} 3: 1 

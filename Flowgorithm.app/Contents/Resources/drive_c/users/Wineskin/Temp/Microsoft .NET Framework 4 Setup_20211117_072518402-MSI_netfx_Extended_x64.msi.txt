@@ -1,2 +1,0 @@
-1: Microsoft .NET Framework 4 Extended 2: {8E34682C-8118-31F1-BC4C-98CD9675E1C2} 
-1: Microsoft .NET Framework 4 Extended 2: {8E34682C-8118-31F1-BC4C-98CD9675E1C2} 3: 1 
