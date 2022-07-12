@@ -1,22 +1,14 @@
 # Flowgorithm For Mac
+Updated to Flowgorithm v3.1.2
 
-# Updated and working on Big Sur and Monterey!
-
-#### All Required dependancies are cleanly contained inside this Flowgorithm.app. You do not need to install anything else to run this app on MacOS. 
-
-# Installation
+## Installation
 
 1. Download and extract the most recent ZIP file. 
-2. Move the app to /Applications (Optional)
-3. Right Click + Open! 
-Enjoy!
+2. Right Click + Run the Installer Package! 
+3. Open Flowgorithm.app and Enjoy!
 
+## Getting Started
 
-## If it says "App is Damaged" enter this in terminal:
+![image](https://user-images.githubusercontent.com/31175268/178444305-55df665d-689b-45af-b6d6-1f1afeb6375c.png)  
+  Source: http://www.flowgorithm.org/index.html
 
-sudo xattr -rds com.apple.quarantine /Applications/Flowgorithm.app
-
-
-### Im hoping other people can avoid that by just using this Flowgorithm Mac port!
-
-Flowgorithm Website: http://www.flowgorithm.org/
