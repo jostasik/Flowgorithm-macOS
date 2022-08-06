@@ -1,5 +1,5 @@
 # Flowgorithm For Mac
-Updated to Flowgorithm v3.1.2
+Updated to Flowgorithm v2.30.3
 
 ## Installation
 
