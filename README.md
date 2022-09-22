@@ -1,4 +1,4 @@
-# Flowgorithm For Mac (CURRENT!)
+# Flowgorithm For Mac | Up to date with Windows!
 Updated to Flowgorithm v3.3.1
 
 ## Installation
