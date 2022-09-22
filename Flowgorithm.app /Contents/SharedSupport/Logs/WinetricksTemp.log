@@ -1,0 +1,19 @@
+Executing mkdir -p /Applications/Flowgorithm/3.3.1/Flowgorithm.app/Contents/SharedSupport
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Using winetricks 20220411-next - sha256sum: 020837042b2842ed5d48b80bbb32ec99ba7d34d06f088b5eacb8dfe6eac5f434 with wine-6.0.2 (WineskinCX 21.2.0) and WINEARCH=win64
+alldlls=builtin
+fontfix
+andale
+arial
+comicsans
+courier
+georgia
+impact
+times
+trebuchet
+verdana
+webdings
+corefonts
+alldlls=builtin

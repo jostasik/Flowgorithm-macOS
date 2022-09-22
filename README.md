@@ -1,10 +1,10 @@
-# Flowgorithm For Mac
-Updated to Flowgorithm v2.30.3
+# Flowgorithm For Mac (CURRENT!)
+Updated to Flowgorithm v3.3.1
 
 ## Installation
 
-1. Download and extract the most recent ZIP file. 
-2. Right Click + Run the Installer Package! 
+1. Aquire the most recent Flowgorithm.pkg from the 'Releases' tab!  . 
+2. Right Click + Run the Installer Package
 3. Open Flowgorithm.app and Enjoy!
 
 ## Getting Started
