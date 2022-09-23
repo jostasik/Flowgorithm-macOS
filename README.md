@@ -1,10 +1,9 @@
 # Flowgorithm for Mac | Flowgorithm v3.3.1
+
 -
+
 ![Download Latest Release](https://github.com/jostasik/Flowgorithm-macOS/releases/download/v3.3.1/Flowgorithm-Setup.zip)
 
-<p align="center">
-  <a href="https://github.com/jostasik/Flowgorithm-macOS/releases/download/v3.3.1/Flowgorithm-Setup.zip" alt="Download Flowgorithm"><img width="64" height="64" src="screenshots/icon-save.png" alt="Download Flowgorithm"></a>
-<p>
 <p align="center">
   <a href="https://github.com/jostasik/Flowgorithm-MacOS/releases" alt="View Release Page"><img width="160" height="18" src="screenshots/release-button.png" alt="View Release Page"></a>
 </p>
