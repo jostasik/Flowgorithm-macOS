@@ -1,14 +1,44 @@
-# Flowgorithm For Mac | Up to date with Windows!
-Updated to Flowgorithm v3.3.1
+## Flowgorithm 
+Updated to Flowgorithm v3.3.1 | Tested with Mohave, Catalina, Big Sur, Moneterey
 
-## Installation
+Flowgorithm is a free beginner's programming language that is based on simple graphical flowcharts. Convert your flowcharts to more than 15 Program Languages!
 
-1. Aquire the most recent Flowgorithm.pkg from the 'Releases' tab!  . 
-2. Right Click + Run the Installer Package
-3. Open Flowgorithm.app and Enjoy!
+### Quickly Get the Latest Release By Clicking the Save Icon Below! 
 
-## Getting Started
+<p align="center">
+  <a href="https://github.com/jostasik/Flowgorithm-macOS/releases/download/v3.3.1/Flowgorithm-Setup.zip" alt="Download Flowgorithm"><img width="64" height="64" src="screenshots/ison-save.png" alt="Download Flowgorithm"></a>
+<p>
+<p align="center">
+  <a href="https://github.com/jostasik/Flowgorithm-MacOS/releases" alt="View Release Page"><img width="160" height="18" src="screenshots/release-button.png" alt="View Release Page"></a>
+</p>
 
-![image](https://user-images.githubusercontent.com/31175268/178444305-55df665d-689b-45af-b6d6-1f1afeb6375c.png)  
-  Source: http://www.flowgorithm.org/index.html
+---
+
+### Opening Flowgorithm
+
+After downloading Flowgorithm, double click to open it. macOS may prompt you “Flowgorithm cannot be opened because it is from an unidentified developer”, as shown below. This is completely normal and expected.
+
+![](screenshots/unidentified-developer.jpg)
+
+To open Flowgorithm, [right-click](https://support.apple.com/HT207700) on the Flowgorithm app in Finder, and click “Open”. If you right-clicked when opening Flowgorithm for the first time, you need to [right-click](https://support.apple.com/HT207700) for a second time. 
+
+If Flowgorithm still can’t be opened, [check your GateKeeper settings](https://support.apple.com/en-us/HT202491) under the General tab in System Preferences > Security & Privacy. Click “Open Anyway” to open Flowgorithm, as shown below.
+
+![](screenshots/open-anyway.jpg)
+
+Flowgorithm will not harm your Mac. This alert only shows up because Flowgorithm is not notarized. Flowgorithm is open source, so you can always examine its source code to make sure it’s safe.
+
+---
+
+### Features 
+
+- Easy to understand output
+- Graphical variable watch window
+- Interactively generate real code (18+ languages)
+- Safe recursion
+- Loops, arrays, and flexible expressions
+- Multilingual support
+
+# [Info From](http://www.flowgorithm.org/index.html#Features)
+# [Resources](http://www.flowgorithm.org/resources/index.html)
 
