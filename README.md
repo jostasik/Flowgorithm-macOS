@@ -1,8 +1,6 @@
 # Flowgorithm for Mac | Flowgorithm v3.3.1
 
-![Download Latest Release](https://github.com/jostasik/Flowgorithm-macOS/releases/download/v3.3.1/Flowgorithm-Setup.zip)
-
----
+Flowgorithm is a free beginner's programming language that is based on simple graphical flowcharts. Convert your flowcharts to more than 15 Program Languages!
 
 <p align="center">
   <a href="https://github.com/jostasik/Flowgorithm-MacOS/releases" alt="View Release Page"><img width="160" height="18" src="screenshots/release-button.png" alt="View Release Page"></a>
