@@ -1,12 +1,11 @@
-## Flowgorithm 
-Updated to Flowgorithm v3.3.1 | Tested with Mohave, Catalina, Big Sur, Moneterey
+## Flowgorithm for Mac | Flowgorithm v3.3.1 Mac Port
 
-Flowgorithm is a free beginner's programming language that is based on simple graphical flowcharts. Convert your flowcharts to more than 15 Program Languages!
+-
 
-### Quickly Get the Latest Release By Clicking the Save Icon Below! 
+## Quickly Get the Latest Release By Clicking the Save Icon Below! 
 
 <p align="center">
-  <a href="https://github.com/jostasik/Flowgorithm-macOS/releases/download/v3.3.1/Flowgorithm-Setup.zip" alt="Download Flowgorithm"><img width="64" height="64" src="screenshots/ison-save.png" alt="Download Flowgorithm"></a>
+  <a href="https://github.com/jostasik/Flowgorithm-macOS/releases/download/v3.3.1/Flowgorithm-Setup.zip" alt="Download Flowgorithm"><img width="64" height="64" src="screenshots/icon-save.png" alt="Download Flowgorithm"></a>
 <p>
 <p align="center">
   <a href="https://github.com/jostasik/Flowgorithm-MacOS/releases" alt="View Release Page"><img width="160" height="18" src="screenshots/release-button.png" alt="View Release Page"></a>
@@ -39,6 +38,8 @@ Flowgorithm will not harm your Mac. This alert only shows up because Flowgorithm
 - Loops, arrays, and flexible expressions
 - Multilingual support
 
-# [Info From](http://www.flowgorithm.org/index.html#Features)
-# [Resources](http://www.flowgorithm.org/resources/index.html)
+# [Home Page Page](http://www.flowgorithm.org/index.html#Features)
 
+-
+
+# [More Info](http://www.flowgorithm.org/resources/index.html)
