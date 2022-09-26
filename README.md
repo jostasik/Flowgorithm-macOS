@@ -7,7 +7,7 @@
 
 ---
 
-## Tap my [homebrew](https://brew.sh) repo for a super quick install!!
+### Tap my [homebrew](https://brew.sh) repo for a super quick install
 
 ```bash
 brew tap jostasik/homebrew-tap
