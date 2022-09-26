@@ -4,12 +4,25 @@
  - Supports C#, C++, Java, JavaScript, Lua, Perl, Python, Ruby, Swift, Visual Basic .NET, and More!
  - Click below to download the latest release!
 <p align="center">
-  <a href="https://github.com/jostasik/Flowgorithm-MacOS/releases" alt="View Release Page"><img width="160" height="18" src="screenshots/release-button.png" alt="View Release Page"></a>
-</p>
 
 ---
 
-### Opening Flowgorithm
+## Tap my [homebrew](https://brew.sh) repo for a super quick install!!
+
+```bash
+brew tap jostasik/homebrew-tap
+brew update
+brew install jostasik-flowgorithm
+```
+
+Done!
+
+---
+
+### Manually Installing Flowgorithm
+
+<a href="https://github.com/jostasik/Flowgorithm-MacOS/releases" alt="View Release Page"><img width="160" height="18" src="screenshots/release-button.png" alt="View Release Page"></a>
+</p>
 
 After downloading Flowgorithm, double click to open it. macOS may prompt you “Flowgorithm cannot be opened because it is from an unidentified developer”, as shown below. This is completely normal and expected.
 
