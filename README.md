@@ -1,4 +1,4 @@
-# Flowgorithm for Mac | Flowgorithm v3.3.1
+# Flowgorithm for Mac
 
  - Flowgorithm is a free beginner's programming language that is based on simple graphical flowcharts. 
  - Supports C#, C++, Java, JavaScript, Lua, Perl, Python, Ruby, Swift, Visual Basic .NET, and More!
