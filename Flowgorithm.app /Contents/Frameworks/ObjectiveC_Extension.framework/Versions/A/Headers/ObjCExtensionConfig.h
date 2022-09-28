@@ -88,7 +88,7 @@
 
 
 
-#define KEEP_DEVICE_CLASSES true
+#define KEEP_DEVICE_CLASSES false
 
 
 #endif /* ObjCExtensionConfig_h */

@@ -6,7 +6,7 @@
 //  Copyright © 2017 VitorMM. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 @interface VMMDeviceSimulator : NSObject
 

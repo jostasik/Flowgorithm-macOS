@@ -11,18 +11,18 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>fprg</string>
+				<string>*</string>
 			</array>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
-	<string>Flowgorithm</string>
+	<string>WineskinLauncher</string>
 	<key>CFBundleIconFile</key>
-	<string>Flowgorithm.icns</string>
+	<string>Wineskin.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.Flowgorithm.jostasik</string>
+	<string>com.Flowgorithm42270895.wineskin</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>CFBundleName</key>
@@ -32,15 +32,15 @@
 	<key>CFBundleShortVersionString</key>
 	<string>3.3.1</string>
 	<key>CFBundleVersion</key>
-	<string>Flowgorithm 64 bit v3.3.1</string>
+	<string>Wineskin 2.9.0.8-3</string>
 	<key>CLI Custom Commands</key>
 	<string></string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
-	<key>Debug Mode</key>
-	<false/>
 	<key>Disable CPUs</key>
 	<false/>
+	<key>Fullscreen</key>
+	<true/>
 	<key>Gamma Correction</key>
 	<string>default</string>
 	<key>LSMinimumSystemVersion</key>
@@ -64,6 +64,8 @@
 	<string>This app needs access to your Documents</string>
 	<key>NSDownloadsFolderUsageDescription</key>
 	<string>This app needs access to your Downloads</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2014-2021 PortingKit.com. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSMicrophoneUsageDescription</key>
@@ -77,11 +79,11 @@
 	<key>Program Flags</key>
 	<string></string>
 	<key>Program Name and Path</key>
-	<string>/Program Files/Flowgorithm/Flowgorithm.exe</string>
-	<key>Skip Gecko</key>
-	<integer>0</integer>
-	<key>Skip Mono</key>
-	<integer>0</integer>
+	<string>/Program Files/Flowgorithm.org/Flowgorithm.exe</string>
+	<key>Resolution</key>
+	<string>novdx24sleep-697649632</string>
+	<key>Skip Mono &amp; Gecko</key>
+	<true/>
 	<key>Symlink Desktop</key>
 	<string>$HOME/Desktop</string>
 	<key>Symlink Downloads</key>
@@ -94,17 +96,17 @@
 	<string>$HOME/Pictures</string>
 	<key>Symlink My Videos</key>
 	<string>$HOME/Movies</string>
-	<key>Symlink Templates</key>
-	<string>$HOME/Templates</string>
 	<key>Symlinks In User Folder</key>
-	<true/>
+	<false/>
 	<key>Try To Use GPU Info</key>
 	<integer>1</integer>
-	<key>WINEDEBUG</key>
-	<string>-esync,-plugplay</string>
+	<key>Use RandR</key>
+	<true/>
+	<key>Use XQuartz</key>
+	<false/>
+	<key>WINEDEBUG=</key>
+	<string></string>
 	<key>Winetricks disable logging</key>
-	<string>1</string>
-	<key>Winetricks force</key>
 	<integer>0</integer>
 	<key>Winetricks silent</key>
 	<integer>1</integer>

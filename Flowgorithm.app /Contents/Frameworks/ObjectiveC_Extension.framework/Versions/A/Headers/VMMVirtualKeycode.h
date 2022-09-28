@@ -31,7 +31,7 @@
 // Tilde (0x0A):
 // https://github.com/SFML/SFML/blob/master/src/SFML/Window/OSX/HIDInputManager.mm
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 @interface VMMVirtualKeycode : NSObject
 
