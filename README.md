@@ -1,7 +1,6 @@
 # Flowgorithm for Mac
 
  - Flowgorithm is a free beginner's programming language that is based on simple graphical flowcharts. 
- - Supports C#, C++, Java, JavaScript, Lua, Perl, Python, Ruby, Swift, Visual Basic .NET, and More!
  - Click below to download the latest release!
 <p align="center">
 
@@ -24,7 +23,7 @@ Done!
 <a href="https://github.com/jostasik/Flowgorithm-MacOS/releases" alt="View Release Page"><img width="160" height="18" src="screenshots/release-button.png" alt="View Release Page"></a>
 </p>
 
-After downloading Flowgorithm, double click to open it. macOS may prompt you “Flowgorithm cannot be opened because it is from an unidentified developer”, as shown below. This is completely normal and expected.
+After downloading Flowgorithm, double click to open the installer. Depending on your security settings, you may need to right click (or CTRL) and select "Open". 
 
 ![](screenshots/unidentified-developer.jpg)
 
