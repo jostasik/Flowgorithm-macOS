@@ -1,13 +1,13 @@
 # Flowgorithm for Mac
 
- - Flowgorithm is a free beginner's programming language that is based on simple graphical flowcharts. 
- - Supports C#, C++, Java, JavaScript, Lua, Perl, Python, Ruby, Swift, Visual Basic .NET, and More!
- - Click below to download the latest release!
-<p align="center">
+ - Flowgorithm is a graphical authoring tool which allows users to write and execute programs using flowcharts. 
+ 
+ - The approach is designed to emphasize the algorithm rather than the syntax of a specific programming language. 
+ 
+ - The flowcharts can be converted to & from several major programming languages.
+ 
 
----
-
-### Tap my [homebrew](https://brew.sh) repo for a super quick install
+## Install Automatically via [Homebrew](https://brew.sh)
 
 ```bash
 brew tap jostasik/homebrew-tap
@@ -15,28 +15,28 @@ brew update
 brew install jostasik-flowgorithm
 ```
 
-Done!
+Enjoy! 🥳
 
----
+___
 
-### Manually Installing Flowgorithm
+## Manual Installation
 
-<a href="https://github.com/jostasik/Flowgorithm-MacOS/releases" alt="View Release Page"><img width="160" height="18" src="screenshots/release-button.png" alt="View Release Page"></a>
-</p>
+ - Download latest installer from the [Releases](https://github.com/jostasik/Flowgorithm-MacOS/releases) page.
+ 
+ - After downloading Flowgorithm, double click to open the installer. 
 
-After downloading Flowgorithm, double click to open it. macOS may prompt you “Flowgorithm cannot be opened because it is from an unidentified developer”, as shown below. This is completely normal and expected.
+ - Depending on your security settings, you may need to right click (or CTRL) and select "Open". 
+ 
+ ![](screenshots/unidentified-developer.jpg)
 
-![](screenshots/unidentified-developer.jpg)
+ - If Flowgorithm still can’t be opened, [check your GateKeeper tab in settings,](https://support.apple.com/en-us/HT202491) 
+  and click “Open Anyway” to open Flowgorithm, as shown below.
+  
+ ![](screenshots/open-anyway.jpg)
 
-If Flowgorithm still can’t be opened, [check your GateKeeper settings](https://support.apple.com/en-us/HT202491) under the General tab in System Preferences > Security & Privacy. Click “Open Anyway” to open Flowgorithm, as shown below.
 
-![](screenshots/open-anyway.jpg)
 
-Flowgorithm will not harm your Mac. This alert only shows up because Flowgorithm is not notarized. Flowgorithm is open source, so you can always examine its source code to make sure it’s safe.
-
----
-
-### Features 
+## Features 
 
 - Easy to understand output
 - Graphical variable watch window
