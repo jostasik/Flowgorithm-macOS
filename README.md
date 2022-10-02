@@ -8,7 +8,7 @@ ___
 
 # Installation Procedure
 
-## Install via Homebrew [^3]
+## Install via Homebrew[^3]
  
 ```bash
 brew tap jostasik/homebrew-tap
