@@ -1,43 +1,35 @@
-# Flowgorithm for Mac
+# Flowgorithm for macOS | [Flowgorithm.org](http://www.flowgorithm.org/index.html#Features)
 
- - Flowgorithm is a graphical authoring tool which allows users to write and execute programs using flowcharts. 
- 
- - The approach is designed to emphasize the algorithm rather than the syntax of a specific programming language. 
- 
- - The flowcharts can be converted to & from several major programming languages.
- 
+- Flowgorithm is a graphical programming tool that allows users to write and execute programs using flowcharts. 
+- The approach is designed to emphasize the algorithm rather than the syntax of a specific programming language.[^1] 
+- The flowchart can be converted to over 18 major programming languages.[^2]
 
-## Install Automatically via [Homebrew](https://brew.sh)
+___ 
 
+# Installation
+
+ **_Option 1:_** Install via Homebrew [^3]
+ 
 ```bash
 brew tap jostasik/homebrew-tap
 brew update
 brew install jostasik-flowgorithm
 ```
+    
 
-Enjoy! 🥳
+ **_Option 2:_** Install via Installer Package
 
-___
-
-## Manual Installation
-
- - Download latest installer from the [Releases](https://github.com/jostasik/Flowgorithm-MacOS/releases) page.
+1. Download the most recent [Release](https://github.com/jostasik/Flowgorithm-MacOS/releases). Open "Flowgorithm.pkg" to Install.
  
- - After downloading Flowgorithm, double click to open the installer. 
-
- - Depending on your security settings, you may need to right click (or CTRL) and select "Open". 
+2. If you have any problem opening Flowgorithm for the first time, check for one of the following scenarios.
  
- ![](screenshots/unidentified-developer.jpg)
-
- - If Flowgorithm still can’t be opened, [check your GateKeeper tab in settings,](https://support.apple.com/en-us/HT202491) 
-  and click “Open Anyway” to open Flowgorithm, as shown below.
-  
- ![](screenshots/open-anyway.jpg)
+| ![](screenshots/unidentified-developer.jpg) | ![](screenshots/open-anyway.jpg) |
+| :---: | :---: |
+| To resolve this, right-click Flowgorithm.app from finder, and click "Open". | If your security settings[^4] display this message, click “Open Anyway”. |
 
 
 
-## Features 
-
+# More Information 
 - Easy to understand output
 - Graphical variable watch window
 - Interactively generate real code (18+ languages)
@@ -45,4 +37,16 @@ ___
 - Loops, arrays, and flexible expressions
 - Multilingual support
 
-# [Home Page](http://www.flowgorithm.org/index.html#Features)
+
+
+
+| **Statement** |
+| :---: |
+| I have no affiliation with the original Flowgorithm project. The author of Flowgorithm, [Devin Cook](http://devincook.com/csc/), holds all intellectual property rights over this base program. The primary goal of this repository is to expand Flowgorithm's reach to new users outside Microsoft's Windows Operating System. |
+
+
+ [^1]: http://psw.asee.org/AnnualConference/asee-psw2015ConfProceedings.pdf
+ [^2]: http://flowgorithm.org/about/features.html
+ [^3]: https://brew.sh
+ [^4]: https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac
+
