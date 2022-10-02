@@ -6,7 +6,7 @@
 
 ___ 
 
-# Installation Procedure
+# Installation
 
  **_Option 1:_** Install via Homebrew [^3]
  
