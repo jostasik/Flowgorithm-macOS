@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: Flowgorithm for MacOS
+title: Flowgorithm-MacOS
 
 # Your name to show in the footer
-author: joe stasik
+author: jostasik
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -39,7 +39,7 @@ round-avatar: false
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-title-img: /assets/img/header.png
+title-img: "/assets/img/header.png"
 
 
 #####################################
@@ -51,7 +51,7 @@ title-img: /assets/img/header.png
 social-network-links:
   email: "jstasik97@gmail.com"
 #   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
+#   facebook: deanattali
   github: jostasik
   twitter: joe_stasik
 #  patreon: DeanAttali
@@ -88,7 +88,7 @@ social-network-links:
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: false
   vk: false
 
@@ -117,7 +117,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "flowgorithm,flowgorithm-mac,flowgorithm-macos, flowgorithm -for-mac, macos-flowcharting,jostasik,joestasik"
 
 ######################################
 # --- Colours / background image --- #
@@ -264,7 +264,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: false  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
