@@ -30,6 +30,7 @@ Flowgorithm will now be in your Applications folder.
 
 Done!
 
+---
 
 ## If you have any issues opening the app for the first time, check for the following:
  
