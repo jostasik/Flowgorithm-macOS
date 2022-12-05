@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.0">
+    <attributes>
+        <attribute name="name" value="Age - Vote"/>
+        <attribute name="authors" value="Devin Cook"/>
+        <attribute name="about" value="This simple example inputs an age from the user and then tells them to go vote (if they are 18 years or older) or stay home."/>
+        <attribute name="saved" value="8/5/2014 8:01:11 PM"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare variables="age" type="Integer"/>
+            <output expression="&quot;How old are you?&quot;"/>
+            <input variable="age"/>
+            <if expression="age &gt;= 18">
+                <then>
+                    <output expression="&quot;Go vote!&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;Sorry, not yet&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="spine"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-01-31 10:17:03 "/>
+        <attribute name="created" value="c3BpbmU7REVTS1RPUC1QVjRFUkNJOzIwMTktMDEtMzE7IjEwOjA4OjUyICI7MjgyMw=="/>
+        <attribute name="edited" value="c3BpbmU7REVTS1RPUC1QVjRFUkNJOzIwMTktMDEtMzE7IjEwOjE3OjAzICI7MTsyOTI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NUM" type="Integer" array="False" size=""/>
+            <declare name="FAT" type="Integer" array="False" size=""/>
+            <assign variable="FAT" expression="1"/>
+            <output expression="&quot;Inserire il numero di cui vuoi il calcolo del fattoriale &quot;" newline="True"/>
+            <input variable="NUM"/>
+            <for variable="NUM" start="NUM" end="1" direction="dec" step="1">
+                <assign variable="FAT" expression="FAT*NUM"/>
+            </for>
+            <output expression="&quot;Il fattoriale del numero inserito &#232; &quot; &amp; FAT" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

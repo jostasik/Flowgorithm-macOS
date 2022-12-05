@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="spine"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-01-28 09:04:52 "/>
+        <attribute name="created" value="c3BpbmU7REVTS1RPUC1QVjRFUkNJOzIwMTktMDEtMjg7IjA1OjE1OjExICI7MjgyNg=="/>
+        <attribute name="edited" value="c3BpbmU7REVTS1RPUC1QVjRFUkNJOzIwMTktMDEtMjg7IjA5OjA0OjUyICI7NTsyOTQ1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ANNI" type="Integer" array="False" size=""/>
+            <output expression="&quot;Quanti anni hai?&quot;" newline="True"/>
+            <input variable="ANNI"/>
+            <if expression="ANNI&lt;18">
+                <then>
+                    <output expression="&quot;Sei minorenne! Non puoi votare.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="ANNI&lt;25">
+                        <then>
+                            <output expression="&quot;Puoi votare per la Camera&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Puoi votare per la Camera e per il Senato.&quot;" newline="False"/>
+                            <if expression="ANNI &lt;40">
+                                <then>
+                                    <output expression="&quot;Puoi anche candidarti alla Camera&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Puoi anche candidarti alla Camera o al Senato&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

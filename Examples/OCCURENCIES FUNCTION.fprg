@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3OGraffeoADavide"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-02-05 10:06:39 "/>
+        <attribute name="created" value="M09HcmFmZmVvQURhdmlkZTtJTkZPMy0wNjsyMDE5LTAxLTIxOyIxMDoyODoyNSAiOzMxNjk="/>
+        <attribute name="edited" value="M09HcmFmZmVvQURhdmlkZTtJTkZPMS0xMjsyMDE5LTAyLTAyOyIwMTowNjo1MCAiOzEyOzMzMTY="/>
+        <attribute name="edited" value="M09HcmFmZmVvQURhdmlkZTtJTkZPMy0wNjsyMDE5LTAyLTA0OyIxMjozMzoyOCAiOzE0OzMzMzI="/>
+        <attribute name="edited" value="M09adW5jaGVkZHVQYW9sbztJTkZPMi0yMjsyMDE5LTAyLTA0OyIxMjo0NDowOCAiOzE7MzM3MA=="/>
+        <attribute name="edited" value="M09adW5jaGVkZHVQYW9sbztJTkZPMy0xODsyMDE5LTAyLTA1OyIxMDozMDo0OCAiOzE7MzM3NA=="/>
+        <attribute name="edited" value="U1BFRUQ7U1BFRUQtUEM7MjAxOS0wMi0wNTsiMTA6MDY6MzkgIjsxOzIyMzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Paolo Zuncheddu 5/02/2019"/>
+            <declare name="word" type="Integer" array="False" size=""/>
+            <declare name="limit" type="Integer" array="False" size=""/>
+            <output expression="&quot;How many words to insert?&quot;" newline="True"/>
+            <input variable="limit"/>
+            <declare name="words" type="String" array="True" size="limit"/>
+            <call expression="reader(limit, words)"/>
+            <call expression="order(limit, words)"/>
+            <call expression="writer(limit, words)"/>
+        </body>
+    </function>
+    <function name="order" type="None" variable="">
+        <parameters>
+            <parameter name="limit" type="Integer" array="False"/>
+            <parameter name="words" type="String" array="True"/>
+        </parameters>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="i2" type="Integer" array="False" size=""/>
+            <declare name="temp" type="String" array="False" size=""/>
+            <for variable="i" start="0" end="limit-2" direction="inc" step="1">
+                <for variable="i2" start="i+1" end="limit-1" direction="inc" step="1">
+                    <if expression="words[i2]&lt;words[i]">
+                        <then>
+                            <assign variable="temp" expression="words[i2]"/>
+                            <assign variable="words[i2]" expression="words[i]"/>
+                            <assign variable="words[i]" expression="temp"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+            </for>
+        </body>
+    </function>
+    <function name="reader" type="None" variable="">
+        <parameters>
+            <parameter name="limit" type="Integer" array="False"/>
+            <parameter name="words" type="String" array="True"/>
+        </parameters>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="word" type="String" array="False" size=""/>
+            <for variable="i" start="0" end="limit-1" direction="inc" step="1">
+                <output expression="&quot;Word No.&quot; &amp; ToString(i+1)" newline="True"/>
+                <input variable="word"/>
+                <assign variable="words[i]" expression="word"/>
+            </for>
+        </body>
+    </function>
+    <function name="writer" type="None" variable="">
+        <parameters>
+            <parameter name="limit" type="Integer" array="False"/>
+            <parameter name="words" type="String" array="True"/>
+        </parameters>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="i2" type="Integer" array="False" size=""/>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <assign variable="counter" expression="0"/>
+            <for variable="i" start="0" end="limit-1" direction="inc" step="1">
+                <assign variable="counter" expression="counter+1"/>
+                <for variable="i2" start="i+1" end="limit-1" direction="inc" step="1">
+                    <if expression="words[i2]=words[i]">
+                        <then>
+                            <assign variable="counter" expression="counter+1"/>
+                            <assign variable="i" expression="i+1"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+                <output expression="&quot;The word &quot; &amp; words[i] &amp; &quot; is repeated &quot; &amp; counter &amp; &quot; times&quot;" newline="True"/>
+                <assign variable="counter" expression="0"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

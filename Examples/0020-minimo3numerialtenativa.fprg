@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Strippoli Mario"/>
+        <attribute name="about" value="Minimo di 3 numeri senza strutture alternative "/>
+        <attribute name="saved" value="2020-11-12 01:06:10 "/>
+        <attribute name="created" value="TWFyaW87REVTS1RPUC1FVkpDUjdUOzIwMTktMDMtMTA7IjA0OjQyOjA0ICI7Mjc4OQ=="/>
+        <attribute name="edited" value="TWFyaW87REVTS1RPUC1FVkpDUjdUOzIwMTktMDQtMTQ7IjEyOjM5OjUwICI7MTI7Mjk1OA=="/>
+        <attribute name="edited" value="TWFyaW87Tk9URUJPT0tBU1VTRkFNOzIwMjAtMTEtMTI7IjAxOjA2OjEwICI7MjsyOTIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Autore Strippoli Mario Classe 2  &#13;&#10;Minimo di 3 numeri (struttura alternativa)"/>
+            <declare name="cognnum1, cognnum2, cognnum3, cognminimo" type="Integer" array="False" size=""/>
+            <declare name="cognmsg" type="String" array="False" size=""/>
+            <output expression="&quot;Inserire il primo numero&quot;" newline="True"/>
+            <input variable="cognnum1"/>
+            <output expression="&quot;Inserire il secondo numero&quot;" newline="True"/>
+            <input variable="cognnum2"/>
+            <output expression="&quot;Inserire il terzo numero&quot;" newline="True"/>
+            <input variable="cognnum3"/>
+            <assign variable="cognminimo" expression="cognnum1"/>
+            <if expression="cognnum2&lt;cognminimo">
+                <then>
+                    <assign variable="cognminimo" expression="cognnum2"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="cognnum3&lt;cognminimo">
+                <then>
+                    <assign variable="cognminimo" expression="cognnum3"/>
+                </then>
+                <else/>
+            </if>
+            <assign variable="cognmsg" expression="&quot;Il minimo tra &quot; &amp; cognnum1 &amp; &quot;, &quot; &amp; cognnum2 &amp; &quot; e &quot;"/>
+            <assign variable="cognmsg" expression="cognmsg &amp; cognnum3 &amp; &quot; e' uguale a &quot; &amp; cognminimo"/>
+            <output expression="cognmsg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

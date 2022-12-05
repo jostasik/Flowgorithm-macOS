@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Shafiq"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-04-01 11:56:47 PM"/>
+        <attribute name="created" value="U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTI4OzA1OjE4OjA3IEFNOzI5MzM="/>
+        <attribute name="edited" value="U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTI5OzAyOjE4OjI0IEFNOzE7SmltIEdyb3c7REVTS1RPUC1QM1BPUlRMOzIwMTgtMTItMTM7MDU6MjA6NTkgUE07UHJvYmxlbSBDaGFwdGVyIDEyICMzIGZvciByZXZpZXcuZnByZzs5NTI4"/>
+        <attribute name="edited" value="U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTI5OzA4OjI4OjE0IFBNOzE7U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTE4OzA4OjM1OjU4IFBNO0ZpbmFsQmVuY2hNYXJraW5nLmZwcmc7ODI5Mg=="/>
+        <attribute name="edited" value="U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTA0LTAxOzExOjU2OjQ3IFBNOzE4OzMxMDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="NAME: Shafiqur Bhuiyan&#13;&#10;DATE: 02/16/2019&#13;&#10;ASSIGNMENT #9"/>
+            <comment text="Word Separator&#13;&#10;Design a program that accepts as the input are sentence in which all of the words are running together, but the first character of each word is uppercase. convert the sentence do a string in which the words are separated by space and only the first word starts with an uppercase letter. For example, the string &#8220;StopAndSmellTheRoses&#8221;. Would be converted to &#8220;Stop and smell the roses.&#8221; "/>
+            <declare name="userString" type="String" array="False" size=""/>
+            <declare name="index, check" type="Integer" array="False" size=""/>
+            <declare name="newStringFirst" type="String" array="False" size=""/>
+            <assign variable="index" expression="0"/>
+            <output expression="&quot;Inser your sentence without space but have an uppercase letter at the start of each of the word&quot;" newline="True"/>
+            <input variable="userString"/>
+            <assign variable="newStringFirst" expression="Char(userString,0)"/>
+            <for variable="index" start="1" end="len(userString)-1" direction="inc" step="1">
+                <assign variable="check" expression="ToCode(Char(userString,index))"/>
+                <if expression="check &gt;=65 AND check &lt;=90">
+                    <then>
+                        <assign variable="newStringFirst" expression="newStringFirst&amp;&quot; &quot;"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="newStringFirst" expression="newStringFirst &amp; Char(userString,index)"/>
+            </for>
+            <output expression="newStringFirst" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

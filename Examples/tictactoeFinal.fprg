@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Jim Grow"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-25 09:22:46 PM"/>
+        <attribute name="created" value="SmltIEdyb3c7REVTS1RPUC1QM1BPUlRMOzIwMTgtMTItMTM7MDU6MjA6NTkgUE07MzEzMw=="/>
+        <attribute name="edited" value="SmltIEdyb3c7REVTS1RPUC1QM1BPUlRMOzIwMTgtMTItMTM7MDU6MjU6MzUgUE07MTszMjQw"/>
+        <attribute name="edited" value="U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTE3OzA2OjIyOjM0IEFNOzE7U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTA1OzAyOjM2OjEzIEFNO0dvbGZTY29yZXMuZnByZzs3NTY3"/>
+        <attribute name="edited" value="U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTI0OzA0OjAzOjUyIEFNOzI7U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTIwOzA5OjI5OjAwIFBNO1RpY1RhY1RvZS5mcHJnOzc0Mjk="/>
+        <attribute name="edited" value="U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTI1OzA5OjIwOjA3IFBNOzE7U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTA0OzAxOjI2OjI1IFBNO2ZlZXRUb0luY2hlcy5mcHJnOzc3OTk="/>
+        <attribute name="edited" value="U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTI1OzA5OjIyOjQ2IFBNOzc3OzMxMTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="NAME Shafiqur Bhuiyan (C00426888)&#13;&#10;DATE 03/25/2019&#13;&#10;ASSIGNMENT #5TIC TAC TOE"/>
+            <declare name="board" type="String" array="True" size="10"/>
+            <declare name="updatePlayer" type="String" array="False" size=""/>
+            <declare name="index" type="Integer" array="False" size=""/>
+            <for variable="index" start="0" end="8" direction="inc" step="1">
+                <assign variable="board[index]" expression="tostring(index+1)"/>
+            </for>
+            <declare name="player, moreTurn, winner" type="Boolean" array="False" size=""/>
+            <comment text="player = TRUE (player)&#13;&#10;player = False (computer)"/>
+            <assign variable="player" expression="TRUE"/>
+            <declare name="turns" type="Integer" array="False" size=""/>
+            <assign variable="turns" expression="1"/>
+            <declare name="noWinner, moreSquares" type="Boolean" array="False" size=""/>
+            <assign variable="noWinner" expression="TRUE"/>
+            <assign variable="moreSquares" expression="FALSE"/>
+            <assign variable="moreTurn" expression="TRUE"/>
+            <call expression="paintBoard(board)"/>
+            <declare name="whoWon" type="String" array="False" size=""/>
+            <while expression="moreTurn">
+                <if expression="player">
+                    <then>
+                        <output expression="&quot;Players Turn&quot;" newline="True"/>
+                        <assign variable="updatePlayer" expression="&quot;X&quot;"/>
+                        <call expression="playersTurn(board)"/>
+                        <assign variable="winner" expression="checkForWinner(board,updatePlayer)"/>
+                        <if expression="winner">
+                            <then>
+                                <assign variable="whoWon" expression="&quot;X&quot;"/>
+                                <assign variable="moreTurn" expression="FALSE"/>
+                                <assign variable="turns" expression="10"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else>
+                        <assign variable="updatePlayer" expression="&quot;O&quot;"/>
+                        <output expression="&quot;Now the computer will take its turn&quot;" newline="True"/>
+                        <call expression="computersTurn(board)"/>
+                        <assign variable="winner" expression="checkForWinner(board,updatePlayer)"/>
+                        <if expression="winner">
+                            <then>
+                                <assign variable="whoWon" expression="&quot;O&quot;"/>
+                                <assign variable="moreTurn" expression="FALSE"/>
+                                <assign variable="turns" expression="10"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+                <call expression="paintBoard(board)"/>
+                <if expression="turns&lt;9">
+                    <then>
+                        <assign variable="turns" expression="turns+1"/>
+                        <assign variable="moreTurn" expression="TRUE"/>
+                        <assign variable="whoWon" expression="&quot;nobody&quot;"/>
+                    </then>
+                    <else>
+                        <assign variable="moreTurn" expression="FALSE"/>
+                        <if expression="winner">
+                            <then/>
+                            <else>
+                                <assign variable="winner" expression="FALSE"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <assign variable="player" expression="!player"/>
+            </while>
+            <if expression="winner">
+                <then>
+                    <if expression="whoWon == &quot;X&quot;">
+                        <then>
+                            <output expression="&quot;You WON&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="whoWon == &quot;O&quot;">
+                                <then>
+                                    <output expression="&quot;Computer WON&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Its a tie&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="checkForWinner" type="Boolean" variable="winner">
+        <parameters>
+            <parameter name="board" type="String" array="True"/>
+            <parameter name="updatePlayer" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="rowMatch, colMatch, diagMatch, winner" type="Boolean" array="False" size=""/>
+            <assign variable="rowMatch" expression="rowCalc(board,updatePlayer)"/>
+            <assign variable="colMatch" expression="colCalc(board,updatePlayer)"/>
+            <assign variable="diagMatch" expression="diagCalc(board,updatePlayer)"/>
+            <if expression="rowMatch OR colMatch OR diagMatch">
+                <then>
+                    <assign variable="winner" expression="TRUE"/>
+                </then>
+                <else>
+                    <assign variable="winner" expression="FALSE"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="colCalc" type="Boolean" variable="winner">
+        <parameters>
+            <parameter name="board" type="String" array="True"/>
+            <parameter name="updatePlayer" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="winner" type="Boolean" array="False" size=""/>
+            <assign variable="winner" expression="FALSE"/>
+            <if expression="(board[0] == &quot;X&quot; &amp;&amp; board[3] == &quot;X&quot; &amp;&amp; board[6] == &quot;X&quot;)  || (board[0] == &quot;O&quot; &amp;&amp; board[3] == &quot;O&quot; &amp;&amp; board[6] == &quot;O&quot;)">
+                <then>
+                    <assign variable="winner" expression="TRUE"/>
+                </then>
+                <else>
+                    <if expression="(board[1] == &quot;X&quot; &amp;&amp; board[4] == &quot;X&quot; &amp;&amp; board[7] == &quot;X&quot;)  || (board[1] == &quot;O&quot; &amp;&amp; board[4] == &quot;O&quot; &amp;&amp; board[7] == &quot;O&quot;)">
+                        <then>
+                            <assign variable="winner" expression="TRUE"/>
+                        </then>
+                        <else>
+                            <if expression="(board[2] == &quot;X&quot; &amp;&amp; board[5] == &quot;X&quot; &amp;&amp; board[8] == &quot;X&quot;)  || (board[2] == &quot;O&quot; &amp;&amp; board[5] == &quot;O&quot; &amp;&amp; board[8] == &quot;O&quot;)">
+                                <then>
+                                    <assign variable="winner" expression="TRUE"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="computersTurn" type="None" variable="">
+        <parameters>
+            <parameter name="board" type="String" array="True"/>
+        </parameters>
+        <body>
+            <declare name="updatePlayer" type="String" array="False" size=""/>
+            <assign variable="updatePlayer" expression="&quot;O&quot;"/>
+            <declare name="valid" type="Boolean" array="False" size=""/>
+            <declare name="arrayIndex" type="Integer" array="False" size=""/>
+            <assign variable="valid" expression="FALSE"/>
+            <while expression="valid == FALSE">
+                <assign variable="arrayIndex" expression="getComputersSquare()"/>
+                <assign variable="valid" expression="validatePlayersChoice(board,arrayIndex)"/>
+            </while>
+            <call expression="updateBoard(board,arrayIndex,updatePlayer)"/>
+            <output expression="&quot;Its players Turn now&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="diagCalc" type="Boolean" variable="winner">
+        <parameters>
+            <parameter name="board" type="String" array="True"/>
+            <parameter name="updateplayer" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="winner" type="Boolean" array="False" size=""/>
+            <assign variable="winner" expression="FALSE"/>
+            <if expression="(board[0] == &quot;X&quot; &amp;&amp; board[4] == &quot;X&quot; &amp;&amp; board[8] == &quot;X&quot;)  || (board[0] == &quot;O&quot; &amp;&amp; board[4] == &quot;O&quot; &amp;&amp; board[8] == &quot;O&quot;)">
+                <then>
+                    <assign variable="winner" expression="TRUE"/>
+                </then>
+                <else>
+                    <if expression="(board[2] == &quot;X&quot; &amp;&amp; board[4] == &quot;X&quot; &amp;&amp; board[6] == &quot;X&quot;)  || (board[2] == &quot;O&quot; &amp;&amp; board[4] == &quot;O&quot; &amp;&amp; board[6] == &quot;O&quot;)">
+                        <then>
+                            <assign variable="winner" expression="TRUE"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="getComputersSquare" type="Integer" variable="arrayIndex">
+        <parameters/>
+        <body>
+            <declare name="arrayIndex" type="Integer" array="False" size=""/>
+            <assign variable="arrayIndex" expression="random(9)"/>
+            <while expression="arrayIndex == 0">
+                <assign variable="arrayIndex" expression="random(9)"/>
+            </while>
+        </body>
+    </function>
+    <function name="getPlayersSquare" type="Integer" variable="arrayIndex">
+        <parameters/>
+        <body>
+            <declare name="arrayIndex" type="Integer" array="False" size=""/>
+            <output expression="&quot;Which square&quot;" newline="True"/>
+            <input variable="arrayIndex"/>
+        </body>
+    </function>
+    <function name="paintBoard" type="None" variable="">
+        <parameters>
+            <parameter name="board" type="String" array="True"/>
+        </parameters>
+        <body>
+            <output expression="&quot;________&quot;" newline="True"/>
+            <output expression="&quot;|&quot;&amp;board[6]&amp;&quot;|&quot;&amp;board[7]&amp;&quot;|&quot;&amp;board[8]&amp;&quot;|&quot;" newline="True"/>
+            <output expression="&quot;|&quot;&amp;board[3]&amp;&quot;|&quot;&amp;board[4]&amp;&quot;|&quot;&amp;board[5]&amp;&quot;|&quot;" newline="True"/>
+            <output expression="&quot;|&quot;&amp;board[0]&amp;&quot;|&quot;&amp;board[1]&amp;&quot;|&quot;&amp;board[2]&amp;&quot;|&quot;" newline="True"/>
+            <output expression="&quot;________&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="playersTurn" type="None" variable="">
+        <parameters>
+            <parameter name="board" type="String" array="True"/>
+        </parameters>
+        <body>
+            <declare name="updatePlayer" type="String" array="False" size=""/>
+            <assign variable="updatePlayer" expression="&quot;X&quot;"/>
+            <declare name="valid" type="Boolean" array="False" size=""/>
+            <declare name="arrayIndex" type="Integer" array="False" size=""/>
+            <assign variable="valid" expression="FALSE"/>
+            <while expression="valid == FALSE">
+                <assign variable="arrayIndex" expression="getPlayersSquare()"/>
+                <assign variable="valid" expression="validatePlayersChoice(board,arrayIndex)"/>
+            </while>
+            <call expression="updateBoard(board,arrayIndex,updatePlayer)"/>
+        </body>
+    </function>
+    <function name="rowCalc" type="Boolean" variable="winner">
+        <parameters>
+            <parameter name="board" type="String" array="True"/>
+            <parameter name="updateWinner" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="winner" type="Boolean" array="False" size=""/>
+            <assign variable="winner" expression="FALSE"/>
+            <if expression="(board[0] == &quot;X&quot; &amp;&amp; board[1] == &quot;X&quot; &amp;&amp; board[2] == &quot;X&quot;)  || (board[0] == &quot;O&quot; &amp;&amp; board[1] == &quot;O&quot; &amp;&amp; board[2] == &quot;O&quot;)">
+                <then>
+                    <assign variable="winner" expression="TRUE"/>
+                </then>
+                <else>
+                    <if expression="(board[3] == &quot;X&quot; &amp;&amp; board[4] == &quot;X&quot; &amp;&amp; board[5] == &quot;X&quot;)  || (board[3] == &quot;O&quot; &amp;&amp; board[4] == &quot;O&quot; &amp;&amp; board[5] == &quot;O&quot;)">
+                        <then>
+                            <assign variable="winner" expression="TRUE"/>
+                        </then>
+                        <else>
+                            <if expression="(board[6] == &quot;X&quot; &amp;&amp; board[7] == &quot;X&quot; &amp;&amp; board[8] == &quot;X&quot;)  || (board[6] == &quot;O&quot; &amp;&amp; board[7] == &quot;O&quot; &amp;&amp; board[8] == &quot;O&quot;)">
+                                <then>
+                                    <assign variable="winner" expression="TRUE"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="updateBoard" type="None" variable="">
+        <parameters>
+            <parameter name="board" type="String" array="True"/>
+            <parameter name="arrayIndex" type="Integer" array="False"/>
+            <parameter name="updatePlayer" type="String" array="False"/>
+        </parameters>
+        <body>
+            <assign variable="board[arrayIndex-1]" expression="updatePlayer"/>
+            <output expression="&quot;|&quot;&amp;board[6]&amp;&quot;|&quot;&amp;board[7]&amp;&quot;|&quot;&amp;board[8]&amp;&quot;|&quot;" newline="True"/>
+            <output expression="&quot;|&quot;&amp;board[3]&amp;&quot;|&quot;&amp;board[4]&amp;&quot;|&quot;&amp;board[5]&amp;&quot;|&quot;" newline="True"/>
+            <output expression="&quot;|&quot;&amp;board[0]&amp;&quot;|&quot;&amp;board[1]&amp;&quot;|&quot;&amp;board[2]&amp;&quot;|&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="validatePlayersChoice" type="Boolean" variable="valid">
+        <parameters>
+            <parameter name="board" type="String" array="True"/>
+            <parameter name="arrayIndex" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="valid" type="Boolean" array="False" size=""/>
+            <assign variable="valid" expression="FALSE"/>
+            <if expression="board[arrayIndex-1] ==&quot;X&quot; || board[arrayIndex-1] == &quot;O&quot;">
+                <then>
+                    <assign variable="valid" expression="FALSE"/>
+                </then>
+                <else>
+                    <assign variable="valid" expression="TRUE"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

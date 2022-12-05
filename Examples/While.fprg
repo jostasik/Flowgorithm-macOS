@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.0">
+    <attributes>
+        <attribute name="name" value="While Loop Example"/>
+        <attribute name="authors" value="Devin Cook"/>
+        <attribute name="about" value="This is a simple example that outputs the numbers from 1 to 100."/>
+        <attribute name="saved" value="8/1/2014 11:23:28 PM"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare variables="n" type="Integer"/>
+            <assign variable="n" expression="1"/>
+            <while expression="n &lt;= 100">
+                <output expression="n"/>
+                <assign variable="n" expression="n + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

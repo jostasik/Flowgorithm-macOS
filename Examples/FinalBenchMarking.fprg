@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Shafiq"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-04-02 10:14:17 PM"/>
+        <attribute name="created" value="U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTE4OzA4OjM1OjU4IFBNOzI5NTU="/>
+        <attribute name="edited" value="U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTE5OzEwOjE4OjEyIFBNOzk7SmltIEdyb3c7REVTS1RPUC1QM1BPUlRMOzIwMTgtMTItMTM7MDU6MjA6NTkgUE07U2VhcmNoIEJlbmNoTWFyay5mcHJnOzgyODk="/>
+        <attribute name="edited" value="U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTAzLTIwOzA5OjMyOjE1IFBNOzQ7SmltIEdyb3c7REVTS1RPUC1QM1BPUlRMOzIwMTgtMTItMTM7MDU6MjA6NTkgUE07QXNzaWdubWVudCA1LmZwcmc7NzkxMg=="/>
+        <attribute name="edited" value="U2hhZmlxO0RFU0tUT1AtNFYzSFJKNjsyMDE5LTA0LTAyOzEwOjE0OjE3IFBNOzI1OzMwOTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="7.Search Benchmarks&#13;&#10;Design an application that has an array of at least 20 integers.it should call a module that uses the sequential search algorithm to locate one of the values. The module should keep account of number of comparisons it makes until it finds the value. Then the program should call another module that uses the binary search algorithm to locate the same value. It should also keep account of the number of comparisons it makes. Display these values on the screen. &#13;&#10;Draw the flowchart and write the pseudo code for problem #7 on page 468, Search Benchmarks with the following modifications:&#13;&#10;1) make the array size 500,&#13;&#10;2) populate the array with random numbers between 1 and 250,&#13;&#10;3) ask the customer for the number to find and&#13;&#10;4) the output should look like this&#13;&#10;The sequential search took nn comparisons and&#13;&#10;The binary search took nn comparisons&#13;&#10;where nn is the number of comparisons.&#13;&#10;&#13;&#10;"/>
+            <comment text="INPUT:&#13;&#10;What to find"/>
+            <comment text="PROCESSES:&#13;&#10;1. Generate Random Numbers&#13;&#10;2. asks for number to find&#13;&#10;3. sequential search&#13;&#10;4. Sort the number&#13;&#10;5. Binary Search"/>
+            <comment text="OUTPUTS:&#13;&#10;1. result for sequential search &#13;&#10;2. result for binary search&#13;&#10;"/>
+            <declare name="SIZE, index, numberToLookFor" type="Integer" array="False" size=""/>
+            <assign variable="SIZE" expression="500"/>
+            <declare name="answerForSeq, answerForbi" type="String" array="False" size=""/>
+            <declare name="values, temp, sortedValues" type="Integer" array="True" size="SIZE"/>
+            <declare name="found" type="Boolean" array="False" size=""/>
+            <assign variable="found" expression="False"/>
+            <assign variable="index" expression="0"/>
+            <comment text="calls to get random value for the array"/>
+            <for variable="index" start="0" end="SIZE - 1" direction="inc" step="1">
+                <assign variable="values[index]" expression="generateNumber()"/>
+            </for>
+            <comment text="Asks the user for input"/>
+            <output expression="&quot;What number would you like to look for? &quot;" newline="True"/>
+            <input variable="numberToLookFor"/>
+            <comment text="calls sequential search"/>
+            <assign variable="answerForSeq" expression="sequentialSearch(values,numberToLookFor,SIZE)"/>
+            <output expression="answerForSeq" newline="True"/>
+            <comment text="calls the function to sort the array to do binary search"/>
+            <call expression="sortingFunction(values,SIZE)"/>
+            <comment text="calls Binary search"/>
+            <assign variable="answerForbi" expression="binarySearch(values,numberToLookFor,SIZE)"/>
+            <output expression="answerForbi" newline="True"/>
+        </body>
+    </function>
+    <function name="binarySearch" type="String" variable="answer">
+        <parameters>
+            <parameter name="value" type="Integer" array="True"/>
+            <parameter name="whatToLook" type="Integer" array="False"/>
+            <parameter name="arraySIZE" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="found" type="Boolean" array="False" size=""/>
+            <assign variable="found" expression="False"/>
+            <declare name="first, last, middle, position, comp, index" type="Integer" array="False" size=""/>
+            <declare name="answer" type="String" array="False" size=""/>
+            <assign variable="first" expression="0"/>
+            <assign variable="last" expression="499"/>
+            <assign variable="position" expression="0"/>
+            <assign variable="index" expression="0"/>
+            <comment text="algorithm for binary search"/>
+            <while expression="found == False and (first&lt;=last)">
+                <assign variable="middle" expression="(first+last)/2"/>
+                <if expression="value[middle]== whatToLook">
+                    <then>
+                        <assign variable="found" expression="True"/>
+                        <assign variable="position" expression="middle"/>
+                    </then>
+                    <else>
+                        <if expression="value[middle] &gt; whatToLook">
+                            <then>
+                                <assign variable="last" expression="middle - 1"/>
+                            </then>
+                            <else>
+                                <assign variable="first" expression="middle + 1"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <assign variable="index" expression="index + 1"/>
+            </while>
+            <if expression="value[position]==whatToLook">
+                <then>
+                    <assign variable="answer" expression="&quot;The binary search took &quot;&amp;index&amp; &quot; comparisons &quot;"/>
+                </then>
+                <else>
+                    <assign variable="answer" expression="&quot;its not in the array &quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="generateNumber" type="Integer" variable="values">
+        <parameters/>
+        <body>
+            <declare name="values" type="Integer" array="False" size=""/>
+            <comment text="generated random number"/>
+            <assign variable="values" expression="random(250)"/>
+            <while expression="values==0">
+                <comment text="eliminates 0 from the array"/>
+                <assign variable="values" expression="random(250)"/>
+            </while>
+        </body>
+    </function>
+    <function name="sequentialSearch" type="String" variable="answer">
+        <parameters>
+            <parameter name="randomValue" type="Integer" array="True"/>
+            <parameter name="whatToLook" type="Integer" array="False"/>
+            <parameter name="arraySize" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="index, comp" type="Integer" array="False" size=""/>
+            <declare name="answer" type="String" array="False" size=""/>
+            <declare name="found" type="Boolean" array="False" size=""/>
+            <assign variable="found" expression="False"/>
+            <assign variable="index" expression="0"/>
+            <comment text="algorithm for sequential search"/>
+            <while expression="found == False and index &lt;=arraySize - 1">
+                <if expression="randomValue[index] == whatToLook">
+                    <then>
+                        <assign variable="comp" expression="index"/>
+                        <assign variable="found" expression="True"/>
+                    </then>
+                    <else>
+                        <assign variable="index" expression="index + 1"/>
+                    </else>
+                </if>
+            </while>
+            <if expression="found=True">
+                <then>
+                    <assign variable="answer" expression="&quot;The sequential search took &quot;&amp;comp&amp; &quot; comparisons &quot;"/>
+                </then>
+                <else>
+                    <assign variable="answer" expression="&quot;The value in not in the array &quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="sortingFunction" type="None" variable="generatedValues">
+        <parameters>
+            <parameter name="generatedValues" type="Integer" array="True"/>
+            <parameter name="arraySize" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sorted, maxElement, index" type="Integer" array="False" size=""/>
+            <declare name="temp" type="Integer" array="True" size="arraySize"/>
+            <assign variable="index" expression="0"/>
+            <for variable="maxElement" start="arraySize - 1" end="0" direction="dec" step="1">
+                <comment text="The inner loop steps through array, comparing each element with its neighbor. All of the elements from index 0 through maxElement are involved in the comparison. If two elements are out of order, they are swaped."/>
+                <for variable="index" start="0" end="maxElement - 1" direction="inc" step="1">
+                    <comment text="Compare an element with its neighbor and swap if necessary."/>
+                    <if expression="generatedValues[index] &gt; generatedValues[index + 1]">
+                        <then>
+                            <comment text="gets the index value and swaps them."/>
+                            <assign variable="temp[index]" expression="generatedValues[index]"/>
+                            <assign variable="generatedValues[index]" expression="generatedValues[index + 1]"/>
+                            <assign variable="generatedValues[index + 1]" expression="temp[index]"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

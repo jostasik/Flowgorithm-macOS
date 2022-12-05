@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.0">
+    <attributes>
+        <attribute name="name" value="Example - Go Do It"/>
+        <attribute name="authors" value="Devin Cook"/>
+        <attribute name="about" value="This is example that demonstrates a basic If Statement."/>
+        <attribute name="saved" value="8/1/2014 11:25:12 PM"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare variables="answer" type="String"/>
+            <output expression="&quot;Is there something you need to do? (y/n)&quot;"/>
+            <input variable="answer"/>
+            <if expression="answer == &quot;n&quot;">
+                <then>
+                    <output expression="&quot;Stop lying!&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Go do it&quot;"/>
+        </body>
+    </function>
+</flowgorithm>

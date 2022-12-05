@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-04-14 12:58:14 "/>
+        <attribute name="created" value="TWFyaW87REVTS1RPUC1FVkpDUjdUOzIwMTktMDMtMTY7IjA0OjIxOjIxICI7Mjc5MQ=="/>
+        <attribute name="edited" value="TWFyaW87REVTS1RPUC1FVkpDUjdUOzIwMTktMDQtMTQ7IjEyOjU4OjE0ICI7ODsyOTE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Autore Strippoli Mario Classe 2   &#13;&#10;Soluzione di una equazione di 2&#176; grado"/>
+            <declare name="coefa, coefb, coefc, delta, sol1, sol2" type="Real" array="False" size=""/>
+            <declare name="messaggio" type="String" array="False" size=""/>
+            <output expression="&quot;Inserire il coefficiente della x al quadrato&quot;" newline="True"/>
+            <input variable="coefa"/>
+            <output expression="&quot;Inserire il coefficiente della x &quot;" newline="True"/>
+            <input variable="coefb"/>
+            <output expression="&quot;Inserire il coefficiente del termine noto&quot;" newline="True"/>
+            <input variable="coefc"/>
+            <if expression="coefa==0">
+                <then>
+                    <if expression="coefb==0">
+                        <then>
+                            <if expression="coefc==0">
+                                <then>
+                                    <assign variable="messaggio" expression="&quot;E' una equazione di primo grado indeterminata&quot;"/>
+                                </then>
+                                <else>
+                                    <assign variable="messaggio" expression="&quot;E' una equazione di primo grado impossibile&quot;"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <assign variable="sol1" expression="-coefc/coefb"/>
+                            <assign variable="messaggio" expression="&quot;La soluzione dell'equazione di primo grado e' &quot; &amp; sol1"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="delta" expression="coefb*coefb-4*coefa*coefc"/>
+                    <if expression="delta&lt;0">
+                        <then>
+                            <assign variable="messaggio" expression="&quot;L'equazione di secondo grado non ha soluzioni nel campo reale&quot;"/>
+                        </then>
+                        <else>
+                            <if expression="delta==0">
+                                <then>
+                                    <assign variable="sol1" expression="-coefb/(2*coefa)"/>
+                                    <assign variable="messaggio" expression="&quot;Le soluzioni dell'equazione di secondo grado sono reali e coincidenti e sono uguali a &quot; &amp; sol1"/>
+                                </then>
+                                <else>
+                                    <assign variable="sol1" expression="(-coefb-sqrt(delta))/(2*coefa)"/>
+                                    <assign variable="sol2" expression="(-coefb+sqrt(delta))/(2*coefa)"/>
+                                    <assign variable="messaggio" expression="&quot;Le soluzioni dell'equazione di secondo grado sono reali e distinte e sono uguali a &quot; &amp; sol1 &amp; &quot; e &quot; &amp; sol2"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="messaggio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

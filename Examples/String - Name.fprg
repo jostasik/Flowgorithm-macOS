@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.0">
+    <attributes>
+        <attribute name="name" value="Example - Strings"/>
+        <attribute name="authors" value="Devin Cook"/>
+        <attribute name="about" value="This simple example reads a name from the screen and then outputs each character on a separate line. It demonstrates the usage of the Len() function."/>
+        <attribute name="saved" value="8/1/2014 11:53:07 PM"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare variables="name" type="String"/>
+            <declare variables="n" type="Integer"/>
+            <input variable="name"/>
+            <for variable="n" start="0" end="len(name) - 1" step="1">
+                <output expression="char(name,n)"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

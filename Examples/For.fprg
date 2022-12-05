@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.0">
+    <attributes>
+        <attribute name="name" value="For Loop Example"/>
+        <attribute name="authors" value="Devin Cook"/>
+        <attribute name="about" value="This is basic For Loop that outputs the numbers from 1 to 100."/>
+        <attribute name="saved" value="8/1/2014 11:21:21 PM"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare variables="n" type="Integer"/>
+            <for variable="n" start="1" end="100" step="1">
+                <output expression="n"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

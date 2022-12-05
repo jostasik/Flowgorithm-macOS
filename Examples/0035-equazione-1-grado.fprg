@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-04-14 12:52:40 "/>
+        <attribute name="created" value="TWFyaW87REVTS1RPUC1FVkpDUjdUOzIwMTktMDMtMTY7IjA0OjIxOjIxICI7Mjc5MQ=="/>
+        <attribute name="edited" value="TWFyaW87REVTS1RPUC1FVkpDUjdUOzIwMTktMDQtMTQ7IjEyOjUyOjQwICI7ODsyOTA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Autore Strippoli Mario Classe 2  &#13;&#10;Soluzione di una equazione di 1&#176; grado del tipo bx + c = 0"/>
+            <declare name="coefb, coefc, sol1" type="Real" array="False" size=""/>
+            <declare name="messaggio" type="String" array="False" size=""/>
+            <output expression="&quot;Inserire il coefficiente della x &quot;" newline="True"/>
+            <input variable="coefb"/>
+            <output expression="&quot;Inserire il coefficiente del termine noto&quot;" newline="True"/>
+            <input variable="coefc"/>
+            <if expression="coefb==0">
+                <then>
+                    <if expression="coefc==0">
+                        <then>
+                            <assign variable="messaggio" expression="&quot;E' una equazione di primo grado indeterminata&quot;"/>
+                        </then>
+                        <else>
+                            <assign variable="messaggio" expression="&quot;E' una equazione di primo grado impossibile&quot;"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="sol1" expression="-coefc/coefb"/>
+                    <assign variable="messaggio" expression="&quot;La soluzione dell'equazione di primo grado e' &quot; &amp; sol1"/>
+                </else>
+            </if>
+            <output expression="messaggio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

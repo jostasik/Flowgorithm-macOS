@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Strippoli Mario"/>
+        <attribute name="about" value="Minimo di 3 numeri senza strutture alternative "/>
+        <attribute name="saved" value="2019-04-14 12:42:21 "/>
+        <attribute name="created" value="TWFyaW87REVTS1RPUC1FVkpDUjdUOzIwMTktMDMtMTA7IjA0OjQyOjA0ICI7Mjc4OQ=="/>
+        <attribute name="edited" value="TWFyaW87REVTS1RPUC1FVkpDUjdUOzIwMTktMDQtMTQ7IjEyOjQyOjIxICI7MTQ7Mjk1Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Autore Strippoli Mario Classe 2  &#13;&#10;Minimo di 3 numeri (struttura alternativa)"/>
+            <declare name="num1, num2, num3, massimo" type="Integer" array="False" size=""/>
+            <declare name="messaggio" type="String" array="False" size=""/>
+            <output expression="&quot;Inserire il primo numero&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Inserire il secondo numero&quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;Inserire il terzo numero&quot;" newline="True"/>
+            <input variable="num3"/>
+            <assign variable="massimo" expression="num1"/>
+            <if expression="num2&gt;massimo">
+                <then>
+                    <assign variable="massimo" expression="num2"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="num3&gt;massimo">
+                <then>
+                    <assign variable="massimo" expression="num3"/>
+                </then>
+                <else/>
+            </if>
+            <assign variable="messaggio" expression="&quot;Il massimo tra &quot; &amp; num1 &amp; &quot;, &quot; &amp; num2 &amp; &quot; e &quot;"/>
+            <assign variable="messaggio" expression="messaggio &amp; num3 &amp; &quot; e' uguale a &quot; &amp; massimo"/>
+            <output expression="messaggio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

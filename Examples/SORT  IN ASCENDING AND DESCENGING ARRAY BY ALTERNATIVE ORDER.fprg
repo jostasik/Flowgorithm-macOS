@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3OPoddaNicola"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-01-12 08:00:31 "/>
+        <attribute name="created" value="M09Qb2RkYU5pY29sYTtJTkZPMS0wMjsyMDE4LTEyLTE1OyIxMjo0MDowOSAiOzI4OTk="/>
+        <attribute name="edited" value="U1BFRUQ7U1BFRUQtUEM7MjAxOS0wMS0wNTsiMDc6NTM6NDcgIjsxOzNPWnVuY2hlZGR1UGFvbG87SU5GTzMtMTg7MjAxOC0xMC0yMjswOTozODowNztpbCBwcm9ncmFtbWEgY2FsY29sYSBxdWFudGkgbXVsdGlwbGkgZGkgayBzb25vIGNvbXByZXNpIHRyYSAyIGVzdHJlbWkgZGF0aS5mcHJnOzEzMDA3"/>
+        <attribute name="edited" value="U1BFRUQ7U1BFRUQtUEM7MjAxOS0wMS0wNTsiMDg6Mzc6NTcgIjsxOzNPWnVuY2hlZGR1UGFvbG87SU5GTzMtMTg7MjAxOC0xMS0yNzsxMDo0NzozMTtwcm92YSBhcnJheS5mcHJnOzcxMzI="/>
+        <attribute name="edited" value="M09QaXJhc01lbGlzc2E7SU5GTzMtMTQ7MjAxOS0wMS0wNzsiMTI6MjU6MDYgIjsxOzMxNTU="/>
+        <attribute name="edited" value="M09adW5jaGVkZHVQYW9sbztJTkZPMS0xMDsyMDE5LTAxLTEyOyIxMjo1NjoxNSAiOzM7MzM2Nw=="/>
+        <attribute name="edited" value="U1BFRUQ7U1BFRUQtUEM7MjAxOS0wMS0xMjsiMDg6MDA6MzEgIjsxNTsyMjc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Paolo Zuncheddu&#13;&#10;29/12/2018"/>
+            <comment text="number input everytime"/>
+            <declare name="number" type="Real" array="False" size=""/>
+            <comment text="number's quantity"/>
+            <declare name="quantity" type="Integer" array="False" size=""/>
+            <comment text="useful for the cicle"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="j" type="Integer" array="False" size=""/>
+            <declare name="k" type="Integer" array="False" size=""/>
+            <comment text="temporany variable"/>
+            <declare name="temp" type="Real" array="False" size=""/>
+            <comment text="rest of division"/>
+            <declare name="rest" type="Integer" array="False" size=""/>
+            <declare name="p" type="Integer" array="False" size=""/>
+            <declare name="ris" type="Integer" array="False" size=""/>
+            <output expression="&quot;The algorithm show n real number input by keyboard randomly, the biggest and the lowest and so on&quot;" newline="True"/>
+            <output expression="&quot;How many numbers do you want to input?&quot;" newline="True"/>
+            <input variable="quantity"/>
+            <declare name="numbers" type="Real" array="True" size="quantity"/>
+            <declare name="vetcresc" type="Real" array="True" size="quantity"/>
+            <declare name="vetdecr" type="Real" array="True" size="quantity"/>
+            <for variable="i" start="0" end="quantity-1" direction="inc" step="1">
+                <output expression="&quot;Give me the &quot; &amp;ToString(i+1)&amp;&quot;&#176;number&quot;" newline="True"/>
+                <input variable="number"/>
+                <assign variable="numbers[i]" expression="number"/>
+            </for>
+            <comment text="copying the fisrt unorded array into other two arrays that will subsequently be sorted in ascending and descending order"/>
+            <comment text="ascending"/>
+            <for variable="i" start="0" end="quantity-1" direction="inc" step="1">
+                <assign variable="vetcresc[i]" expression="numbers[i]"/>
+            </for>
+            <comment text="descending"/>
+            <for variable="i" start="0" end="quantity-1" direction="inc" step="1">
+                <assign variable="vetdecr[i]" expression="numbers[i]"/>
+            </for>
+            <comment text="sorting an ascending array (by bubble sort)"/>
+            <for variable="i" start="0" end="quantity-2" direction="inc" step="1">
+                <for variable="j" start="i+1" end="quantity-1" direction="inc" step="1">
+                    <if expression="vetcresc[j]&lt;vetcresc[i]">
+                        <then>
+                            <assign variable="temp" expression="vetcresc[j]"/>
+                            <assign variable="vetcresc[j]" expression="vetcresc[i]"/>
+                            <assign variable="vetcresc[i]" expression="temp"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+            </for>
+            <comment text="sorting an descending array (by bubble sort)"/>
+            <for variable="i" start="0" end="quantity-2" direction="inc" step="1">
+                <for variable="k" start="i+1" end="quantity-1" direction="inc" step="1">
+                    <if expression="vetdecr[k]&gt;vetdecr[i]">
+                        <then>
+                            <assign variable="temp" expression="vetdecr[k]"/>
+                            <assign variable="vetdecr[k]" expression="vetdecr[i]"/>
+                            <assign variable="vetdecr[i]" expression="temp"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+            </for>
+            <assign variable="i" expression="0"/>
+            <assign variable="p" expression="0"/>
+            <assign variable="ris" expression="quantity/2"/>
+            <assign variable="rest" expression="quantity-INT (quantity/2)*2"/>
+            <comment text="If it odd will do something similar"/>
+            <if expression="rest=0">
+                <then>
+                    <for variable="i" start="0" end="ris-1" direction="inc" step="1">
+                        <assign variable="numbers[p]" expression="vetdecr[i]"/>
+                        <assign variable="p" expression="p+2"/>
+                    </for>
+                    <assign variable="p" expression="1"/>
+                    <for variable="i" start="0" end="ris-1" direction="inc" step="1">
+                        <assign variable="numbers[p]" expression="vetcresc[i]"/>
+                        <assign variable="p" expression="p+2"/>
+                    </for>
+                </then>
+                <else>
+                    <assign variable="ris" expression="ris+1"/>
+                    <for variable="i" start="0" end="ris-1" direction="inc" step="1">
+                        <assign variable="numbers[p]" expression="vetdecr[i]"/>
+                        <assign variable="p" expression="p+2"/>
+                    </for>
+                    <assign variable="p" expression="1"/>
+                    <for variable="i" start="0" end="ris-2" direction="inc" step="1">
+                        <assign variable="numbers[p]" expression="vetcresc[i]"/>
+                        <assign variable="p" expression="p+2"/>
+                    </for>
+                </else>
+            </if>
+            <for variable="i" start="0" end="quantity-1" direction="inc" step="1">
+                <output expression="numbers[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

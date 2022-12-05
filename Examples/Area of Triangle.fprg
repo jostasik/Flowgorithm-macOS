@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.0">
+    <attributes>
+        <attribute name="name" value="Example Triangle"/>
+        <attribute name="authors" value="Devin Cook"/>
+        <attribute name="about" value="This is very basic program that inputs the base and height of a right-angled triangle."/>
+        <attribute name="saved" value="8/1/2014 11:41:58 PM"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare variables="base" type="Real"/>
+            <declare variables="height" type="Real"/>
+            <declare variables="answer" type="Real"/>
+            <output expression="&quot;Please enter the base of the triangle&quot;"/>
+            <input variable="base"/>
+            <output expression="&quot;Please enter the height of the triangle&quot;"/>
+            <input variable="height"/>
+            <assign variable="answer" expression="1 / 2 * (base * height)"/>
+            <output expression="&quot;The area of the triangle is &quot; &amp; answer"/>
+        </body>
+    </function>
+</flowgorithm>

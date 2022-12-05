@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.0">
+    <attributes>
+        <attribute name="name" value="Area of a Circle"/>
+        <attribute name="authors" value="Devin Cook"/>
+        <attribute name="about" value="This example inputs the radius of a circle and outputs the area."/>
+        <attribute name="saved" value="8/1/2014 11:17:52 PM"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare variables="area" type="Real"/>
+            <declare variables="radius" type="Integer"/>
+            <output expression="&quot;Please enter the radius of a circle&quot;"/>
+            <input variable="radius"/>
+            <assign variable="area" expression="3.14 * radius ^ 2"/>
+            <output expression="&quot;The area is &quot; &amp; area"/>
+        </body>
+    </function>
+</flowgorithm>

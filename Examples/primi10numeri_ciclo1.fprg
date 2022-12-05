@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="spine"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-01-28 09:39:31 "/>
+        <attribute name="created" value="c3BpbmU7REVTS1RPUC1QVjRFUkNJOzIwMTktMDEtMjg7IjA1OjA1OjE5ICI7MjgzMw=="/>
+        <attribute name="edited" value="c3BpbmU7REVTS1RPUC1QVjRFUkNJOzIwMTktMDEtMjg7IjA5OjM5OjMxICI7MTsyOTQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NUM" type="Integer" array="False" size=""/>
+            <assign variable="NUM" expression="0"/>
+            <do expression="NUM&lt;10">
+                <assign variable="NUM" expression="NUM+1"/>
+                <output expression="NUM" newline="True"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
