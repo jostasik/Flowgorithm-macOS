@@ -31,6 +31,7 @@
 
 -(BOOL)saveAsIcnsAtPath:(NSString*)icnsPath;
 
+-(NSData*)dataForImageWithType:(NSBitmapImageFileType)type;
 -(BOOL)writeToFile:(NSString*)file atomically:(BOOL)useAuxiliaryFile;
 
 @end

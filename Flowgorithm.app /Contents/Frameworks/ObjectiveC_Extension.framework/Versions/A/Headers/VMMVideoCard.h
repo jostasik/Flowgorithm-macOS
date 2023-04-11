@@ -27,6 +27,7 @@ static NSString * _Nonnull const VMMVideoCardKextInfoKey =                   @"s
 
 static NSString * _Nonnull const VMMVideoCardKextInfoNotLoaded =  @"sppci_kextnotloaded";
 
+static NSString * _Nonnull const VMMVideoCardTypeApple =           @"Apple Silicon";
 static NSString * _Nonnull const VMMVideoCardTypeIntelHD =         @"Intel HD";
 static NSString * _Nonnull const VMMVideoCardTypeIntelUHD =        @"Intel UHD";
 static NSString * _Nonnull const VMMVideoCardTypeIntelIris =       @"Intel Iris";
@@ -44,10 +45,12 @@ static NSString * _Nonnull const VMMVideoCardBusPCIe =        @"spdisplays_pcie_
 static NSString * _Nonnull const VMMVideoCardBusPCI =         @"sppci_pci_device";
 static NSString * _Nonnull const VMMVideoCardBusBuiltIn =     @"spdisplays_builtin";
 
+static NSString * _Nonnull const VMMVideoCardVendorIDApple =  @"0x05ac";
 static NSString * _Nonnull const VMMVideoCardVendorIDIntel =  @"0x8086";
 static NSString * _Nonnull const VMMVideoCardVendorIDNVIDIA = @"0x10de";
 static NSString * _Nonnull const VMMVideoCardVendorIDATIAMD = @"0x1002";
 
+static NSString * _Nonnull const VMMVideoCardVendorApple =    @"Apple";
 static NSString * _Nonnull const VMMVideoCardVendorIntel =    @"Intel";
 static NSString * _Nonnull const VMMVideoCardVendorNVIDIA =   @"NVIDIA";
 static NSString * _Nonnull const VMMVideoCardVendorATIAMD =   @"ATI/AMD";

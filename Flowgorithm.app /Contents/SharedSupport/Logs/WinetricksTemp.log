@@ -1,0 +1,28 @@
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Using winetricks 20220411-next - sha256sum: 5b073fdbe7ac7c0a8f525bd3ef4d070b9cd040cbb185bcbfbbd6db760f072f67 with wine-7.7 (WineskinCX 22.1.0) and WINEARCH=win64
+andale
+arial
+baekmuk
+calibri
+cambria
+candara
+comicsans
+consolas
+constantia
+corbel
+courier
+georgia
+impact
+times
+trebuchet
+verdana
+webdings
+corefonts
+droid
+eufonts
+ipamona
+liberation
+lucida
+meiryo

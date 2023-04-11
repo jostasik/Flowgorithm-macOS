@@ -1,0 +1,357 @@
+*PPD-Adobe: "4.3"
+*% PPD created by ipp2ppd (v3:Sep  6 2021)
+*FormatVersion: "4.3"
+*FileVersion: "3.0"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*FileSystem: False
+*cupsVersion: 2.0
+*cupsModelNumber: 0
+*cupsSNMPSupplies: False
+*APAirPrint: True
+*APAirPrintVersion: 1.3
+*APURFVersion: 1.4
+*% WARNING missing printer-firmware-name and/or printer-firmware-string-version.
+*% WARNING no printer-strings for the language "en"
+*cupsLanguages: "en"
+*cupsIdentifyActions: "display sound"
+*APPrinterIconPath: "/Library/Printers/Icons/1c852a4d-b800-1f08-abcd-308d99b71f99.icns"
+*APAcceptsMixedURF: True
+*PCFileName: "APHPOFFI.PPD"
+*ModelName: "HP Officejet Pro 6830"
+*Product: (HP Officejet Pro 6830)
+*ShortNickName: "HP Officejet Pro 6830"
+*Manufacturer: "HP"
+*NickName: "HP Officejet Pro 6830-AirPrint"
+*Throughput: 18
+*APSupplies: "http://HP308D99B71F99.local/SureSupplyMobile/"
+*cupsSingleFile: True
+*cupsFilter2: "image/jpeg image/jpeg 0 maxsize(51750912) -"
+*cupsFilter: "image/jpeg 0 -"
+*cupsFilter2: "image/urf image/urf 10 -"
+*cupsFilter: "image/urf 10 -"
+*cupsMaxCopies: 99
+*OpenUI *Collate: PickOne
+*OrderDependency: 10 AnySetup *Collate
+*DefaultCollate: False
+*Collate True: "<</Collate true>>setpagedevice"
+*Collate False: "<</Collate false>>setpagedevice"
+*CloseUI: *Collate
+*ColorDevice: True
+*APColorSpaces: true
+*DefaultColorSpace: RGB
+*cupsICCProfile Gray../Grayscale: "/System/Library/ColorSync/Profiles/Generic Gray Gamma 2.2 Profile.icc"
+*cupsICCProfile Gray16../Deep Grayscale: "/System/Library/ColorSync/Profiles/Generic Gray Gamma 2.2 Profile.icc"
+*cupsICCProfile DeviceGray../Device Grayscale: "/System/Library/ColorSync/Profiles/Generic Gray Gamma 2.2 Profile.icc"
+*cupsICCProfile DeviceGray16../Deep Device Grayscale: "/System/Library/ColorSync/Profiles/Generic Gray Gamma 2.2 Profile.icc"
+*cupsICCProfile RGB../Color: "/System/Library/ColorSync/Profiles/sRGB Profile.icc"
+*cupsICCProfile AdobeRGB../Deep Color: "/System/Library/ColorSync/Profiles/AdobeRGB1998.icc"
+*cupsICCProfile DeviceRGB../Device Color: "/System/Library/ColorSync/Profiles/sRGB Profile.icc"
+*cupsICCProfile DeviceRGB16../Deep Device Color: "/System/Library/ColorSync/Profiles/sRGB Profile.icc"
+*OpenUI *ColorModel/Color Mode: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*DefaultColorModel: RGB
+*ColorModel Gray/Grayscale: "<</cupsColorSpace 18/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*ColorModel Gray16/Deep Gray: "<</cupsColorSpace 18/cupsBitsPerColor 16/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*ColorModel DeviceGray/Device Gray: "<</cupsColorSpace 0/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*ColorModel DeviceGray16/Deep Device Gray: "<</cupsColorSpace 0/cupsBitsPerColor 16/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*ColorModel RGB/Color: "<</cupsColorSpace 19/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*ColorModel AdobeRGB/Deep Color: "<</cupsColorSpace 20/cupsBitsPerColor 16/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*ColorModel DeviceRGB/Device Color: "<</cupsColorSpace 1/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*ColorModel DeviceRGB16/Deep Device Color: "<</cupsColorSpace 1/cupsBitsPerColor 16/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*APSupportsCustomColorMatching: True
+*CloseUI: *ColorModel
+*LandscapeOrientation: Minus90
+*DefaultResolution: 600x600dpi
+*OpenUI *cupsPrintQuality/Quality: PickOne
+*OrderDependency: 10 AnySetup *cupsPrintQuality
+*DefaultcupsPrintQuality: Normal
+*cupsPrintQuality Draft: "<</cupsInteger1 3 /HWResolution[300 300]>>setpagedevice"
+*cupsPrintQuality Normal: "<</cupsInteger1 4 /HWResolution[600 600]>>setpagedevice"
+*cupsPrintQuality High: "<</cupsInteger1 5 /HWResolution[600 600]>>setpagedevice"
+*CloseUI: *cupsPrintQuality
+*cupsBackSide: Rotated
+*OpenUI *Duplex/2-Sided Printing: PickOne
+*OrderDependency: 10 AnySetup *Duplex
+*DefaultDuplex: DuplexNoTumble
+*Duplex None/Off (1-Sided): "<</Duplex false>>setpagedevice"
+*Duplex DuplexNoTumble/Long-Edge (Portrait): "<</Duplex true/Tumble false>>setpagedevice"
+*Duplex DuplexTumble/Short-Edge (Landscape): "<</Duplex true/Tumble true>>setpagedevice"
+*CloseUI: *Duplex
+*DefaultOutputOrder: Reverse
+*APHasMediaReady: True
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize 100x150mm: "<</PageSize[283.4646 425.1969]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 100x150mm.Fullbleed: "<</PageSize[283.4646 425.1969]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 111.76x152.4mm: "<</PageSize[316.8000 432.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 3.5x5: "<</PageSize[252.0000 360.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 3.5x5.Fullbleed: "<</PageSize[252.0000 360.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 3x5: "<</PageSize[216.0000 360.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 4x6: "<</PageSize[288.0000 432.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 4x6.Fullbleed: "<</PageSize[288.0000 432.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 5x7: "<</PageSize[360.0000 504.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 5x7.Fullbleed: "<</PageSize[360.0000 504.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 5x8: "<</PageSize[360.0000 576.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 8x10: "<</PageSize[576.0000 720.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 8x10.Fullbleed: "<</PageSize[576.0000 720.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A4: "<</PageSize[595.2756 841.8898]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A4.Fullbleed: "<</PageSize[595.2756 841.8898]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A5: "<</PageSize[419.5276 595.2756]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A5.Fullbleed: "<</PageSize[419.5276 595.2756]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A6: "<</PageSize[297.6378 419.5276]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A6.Fullbleed: "<</PageSize[297.6378 419.5276]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize B5: "<</PageSize[515.9055 728.5039]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize B5.Fullbleed: "<</PageSize[515.9055 728.5039]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Env10: "<</PageSize[296.9858 684.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize EnvA2: "<</PageSize[314.9858 414.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize EnvC5: "<</PageSize[459.2126 649.1339]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize EnvC6: "<</PageSize[323.1496 459.2126]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize EnvChou3: "<</PageSize[340.1575 666.1417]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize EnvChou4: "<</PageSize[255.1181 581.1024]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize EnvDL: "<</PageSize[311.8110 623.6220]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize EnvMonarch: "<</PageSize[278.9858 540.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize EnvPersonal: "<</PageSize[260.9858 468.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Executive: "<</PageSize[522.0000 756.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize FanFoldGermanLegal: "<</PageSize[612.0000 936.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize ISOB5: "<</PageSize[498.8976 708.6614]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Legal: "<</PageSize[612.0000 1008.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Letter: "<</PageSize[612.0000 792.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Letter.Fullbleed: "<</PageSize[612.0000 792.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Postcard: "<</PageSize[283.4646 419.5276]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Postcard.Fullbleed: "<</PageSize[283.4646 419.5276]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Statement: "<</PageSize[396.0000 612.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion 100x150mm: "<</PageSize[283.4646 425.1969]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 100x150mm.Fullbleed: "<</PageSize[283.4646 425.1969]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 111.76x152.4mm: "<</PageSize[316.8000 432.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 3.5x5: "<</PageSize[252.0000 360.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 3.5x5.Fullbleed: "<</PageSize[252.0000 360.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 3x5: "<</PageSize[216.0000 360.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 4x6: "<</PageSize[288.0000 432.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 4x6.Fullbleed: "<</PageSize[288.0000 432.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 5x7: "<</PageSize[360.0000 504.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 5x7.Fullbleed: "<</PageSize[360.0000 504.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 5x8: "<</PageSize[360.0000 576.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 8x10: "<</PageSize[576.0000 720.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 8x10.Fullbleed: "<</PageSize[576.0000 720.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A4: "<</PageSize[595.2756 841.8898]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A4.Fullbleed: "<</PageSize[595.2756 841.8898]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A5: "<</PageSize[419.5276 595.2756]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A5.Fullbleed: "<</PageSize[419.5276 595.2756]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A6: "<</PageSize[297.6378 419.5276]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A6.Fullbleed: "<</PageSize[297.6378 419.5276]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion B5: "<</PageSize[515.9055 728.5039]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion B5.Fullbleed: "<</PageSize[515.9055 728.5039]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Env10: "<</PageSize[296.9858 684.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion EnvA2: "<</PageSize[314.9858 414.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion EnvC5: "<</PageSize[459.2126 649.1339]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion EnvC6: "<</PageSize[323.1496 459.2126]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion EnvChou3: "<</PageSize[340.1575 666.1417]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion EnvChou4: "<</PageSize[255.1181 581.1024]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion EnvDL: "<</PageSize[311.8110 623.6220]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion EnvMonarch: "<</PageSize[278.9858 540.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion EnvPersonal: "<</PageSize[260.9858 468.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Executive: "<</PageSize[522.0000 756.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion FanFoldGermanLegal: "<</PageSize[612.0000 936.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion ISOB5: "<</PageSize[498.8976 708.6614]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Legal: "<</PageSize[612.0000 1008.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Letter: "<</PageSize[612.0000 792.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Letter.Fullbleed: "<</PageSize[612.0000 792.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Postcard: "<</PageSize[283.4646 419.5276]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Postcard.Fullbleed: "<</PageSize[283.4646 419.5276]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Statement: "<</PageSize[396.0000 612.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: Letter
+*DefaultPaperDimension: Letter
+*PaperDimension 100x150mm: "283.4646 425.1969"
+*ImageableArea 100x150mm: "8.3906 8.3906 275.0740 416.8063"
+*PaperDimension 100x150mm.Fullbleed: "283.4646 425.1969"
+*ImageableArea 100x150mm.Fullbleed: "0.0000 0.0000 283.4646 425.1969"
+*PaperDimension 111.76x152.4mm: "316.8000 432.0000"
+*ImageableArea 111.76x152.4mm: "8.3906 8.3906 308.4094 423.6094"
+*PaperDimension 3.5x5: "252.0000 360.0000"
+*ImageableArea 3.5x5: "8.3906 8.3906 243.6094 351.6094"
+*PaperDimension 3.5x5.Fullbleed: "252.0000 360.0000"
+*ImageableArea 3.5x5.Fullbleed: "0.0000 0.0000 252.0000 360.0000"
+*PaperDimension 3x5: "216.0000 360.0000"
+*ImageableArea 3x5: "8.3906 8.3906 207.6094 351.6094"
+*PaperDimension 4x6: "288.0000 432.0000"
+*ImageableArea 4x6: "8.3906 8.3906 279.6094 423.6094"
+*PaperDimension 4x6.Fullbleed: "288.0000 432.0000"
+*ImageableArea 4x6.Fullbleed: "0.0000 0.0000 288.0000 432.0000"
+*PaperDimension 5x7: "360.0000 504.0000"
+*ImageableArea 5x7: "8.3906 8.3906 351.6094 495.6094"
+*PaperDimension 5x7.Fullbleed: "360.0000 504.0000"
+*ImageableArea 5x7.Fullbleed: "0.0000 0.0000 360.0000 504.0000"
+*PaperDimension 5x8: "360.0000 576.0000"
+*ImageableArea 5x8: "8.3906 8.3906 351.6094 567.6094"
+*PaperDimension 8x10: "576.0000 720.0000"
+*ImageableArea 8x10: "8.3906 8.3906 567.6094 711.6094"
+*PaperDimension 8x10.Fullbleed: "576.0000 720.0000"
+*ImageableArea 8x10.Fullbleed: "0.0000 0.0000 576.0000 720.0000"
+*PaperDimension A4: "595.2756 841.8898"
+*ImageableArea A4: "8.3906 8.3906 586.8850 833.4992"
+*PaperDimension A4.Fullbleed: "595.2756 841.8898"
+*ImageableArea A4.Fullbleed: "0.0000 0.0000 595.2756 841.8898"
+*PaperDimension A5: "419.5276 595.2756"
+*ImageableArea A5: "8.3906 8.3906 411.1370 586.8850"
+*PaperDimension A5.Fullbleed: "419.5276 595.2756"
+*ImageableArea A5.Fullbleed: "0.0000 0.0000 419.5276 595.2756"
+*PaperDimension A6: "297.6378 419.5276"
+*ImageableArea A6: "8.3906 8.3906 289.2472 411.1370"
+*PaperDimension A6.Fullbleed: "297.6378 419.5276"
+*ImageableArea A6.Fullbleed: "0.0000 0.0000 297.6378 419.5276"
+*PaperDimension B5: "515.9055 728.5039"
+*ImageableArea B5: "8.3906 8.3906 507.5150 720.1134"
+*PaperDimension B5.Fullbleed: "515.9055 728.5039"
+*ImageableArea B5.Fullbleed: "0.0000 0.0000 515.9055 728.5039"
+*PaperDimension Env10: "296.9858 684.0000"
+*ImageableArea Env10: "8.3906 8.3906 288.5953 675.6094"
+*PaperDimension EnvA2: "314.9858 414.0000"
+*ImageableArea EnvA2: "8.3906 8.3906 306.5953 405.6094"
+*PaperDimension EnvC5: "459.2126 649.1339"
+*ImageableArea EnvC5: "8.3906 8.3906 450.8220 640.7433"
+*PaperDimension EnvC6: "323.1496 459.2126"
+*ImageableArea EnvC6: "8.3906 8.3906 314.7591 450.8220"
+*PaperDimension EnvChou3: "340.1575 666.1417"
+*ImageableArea EnvChou3: "8.3906 8.3906 331.7669 657.7512"
+*PaperDimension EnvChou4: "255.1181 581.1024"
+*ImageableArea EnvChou4: "8.3906 8.3906 246.7276 572.7118"
+*PaperDimension EnvDL: "311.8110 623.6220"
+*ImageableArea EnvDL: "8.3906 8.3906 303.4205 615.2315"
+*PaperDimension EnvMonarch: "278.9858 540.0000"
+*ImageableArea EnvMonarch: "8.3906 8.3906 270.5953 531.6094"
+*PaperDimension EnvPersonal: "260.9858 468.0000"
+*ImageableArea EnvPersonal: "8.3906 8.3906 252.5953 459.6094"
+*PaperDimension Executive: "522.0000 756.0000"
+*ImageableArea Executive: "8.3906 8.3906 513.6094 747.6094"
+*PaperDimension FanFoldGermanLegal: "612.0000 936.0000"
+*ImageableArea FanFoldGermanLegal: "8.3906 8.3906 603.6094 927.6094"
+*PaperDimension ISOB5: "498.8976 708.6614"
+*ImageableArea ISOB5: "8.3906 8.3906 490.5071 700.2709"
+*PaperDimension Legal: "612.0000 1008.0000"
+*ImageableArea Legal: "8.3906 8.3906 603.6094 999.6094"
+*PaperDimension Letter: "612.0000 792.0000"
+*ImageableArea Letter: "8.3906 8.3906 603.6094 783.6094"
+*PaperDimension Letter.Fullbleed: "612.0000 792.0000"
+*ImageableArea Letter.Fullbleed: "0.0000 0.0000 612.0000 792.0000"
+*PaperDimension Postcard: "283.4646 419.5276"
+*ImageableArea Postcard: "8.3906 8.3906 275.0740 411.1370"
+*PaperDimension Postcard.Fullbleed: "283.4646 419.5276"
+*ImageableArea Postcard.Fullbleed: "0.0000 0.0000 283.4646 419.5276"
+*PaperDimension Statement: "396.0000 612.0000"
+*ImageableArea Statement: "8.3906 8.3906 387.6094 603.6094"
+*ParamCustomPageSize Width: 1 points 216 612
+*ParamCustomPageSize Height: 2 points 360 1008
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 3
+*CustomPageSize True: ""
+*OpenUI *MediaType/MediaType: PickOne
+*OrderDependency: 10 AnySetup *MediaType
+*MediaType stationery: ""
+*MediaType photographic-glossy: ""
+*MediaType com.hp.brochure-glossy: ""
+*MediaType com.hp.brochure-matte: ""
+*MediaType com.hp.everyday-glossy: ""
+*MediaType com.hp.advanced-photo: ""
+*MediaType com.hp.everyday-matte: ""
+*MediaType com.hp.premium-photo: ""
+*MediaType any/Any: ""
+*DefaultMediaType: any
+*CloseUI: *MediaType
+*APPrinterPreset DraftGray_with_Paper_Auto-Detect/Black and White - Draft: "
+	*cupsPrintQuality Draft
+	*ColorModel Gray
+	*Duplex DuplexNoTumble
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality draft
+	com.apple.print.preset.media-front-coating autodetect
+	com.apple.print.preset.output-mode monochrome"
+*End
+*APPrinterPreset Gray_with_Paper_Auto-Detect/Black and White: "
+	*cupsPrintQuality Normal
+	*ColorModel Gray
+	*Duplex DuplexNoTumble
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect
+	com.apple.print.preset.output-mode monochrome"
+*End
+*APPrinterPreset Color_with_Paper_Auto-Detect/Color: "
+	*cupsPrintQuality Normal
+	*ColorModel RGB
+	*Duplex DuplexNoTumble
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect"
+*End
+*APPrinterPreset Color_with_Paper_Auto-Detect_-_Fine/Color - Fine: "
+	*cupsPrintQuality High
+	*ColorModel AdobeRGB
+	*Duplex DuplexNoTumble
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating autodetect"
+*End
+*APPrinterPreset Photo_on_Plain_Paper/Photo on Plain Paper: "
+	*cupsPrintQuality High
+	*Duplex None
+	*ColorModel RGB
+	*MediaType stationery
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating none
+	"
+*End
+*APPrinterPreset Photo_on_Plain_Paper_-_Fine/Photo on Plain Paper - Fine: "
+	*cupsPrintQuality High
+	*Duplex None
+	*ColorModel AdobeRGB
+	*MediaType stationery
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating none
+	"
+*End
+*APPrinterPreset Photo_on_Gloss_Paper/Photo on Glossy Paper: "
+	*cupsPrintQuality High
+	*Duplex None
+	*ColorModel RGB
+	*MediaType photographic-glossy
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy
+	"
+*End
+*APPrinterPreset Photo_on_Gloss_Paper_-_Fine/Photo on Glossy Paper - Fine: "
+	*cupsPrintQuality High
+	*Duplex None
+	*ColorModel AdobeRGB
+	*MediaType photographic-glossy
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy
+	"
+*End
+*APPrinterPreset BWPhoto_on_Gloss_Paper_-_Fine/Black and White Photo on Glossy Paper - Fine: "
+	*cupsPrintQuality High
+	*Duplex None
+	*ColorModel Gray16
+	*MediaType photographic-glossy
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy
+	"
+*End
+
+*APScannerUUID: "1C852A4D-B800-1F08-ABCD-308D99B71F99"
+*APICADriver: True
+*APScannerModulePath: "/System/Library/Image Capture/Devices/AirScanScanner.app"

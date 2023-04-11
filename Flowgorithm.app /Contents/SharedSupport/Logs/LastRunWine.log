@@ -1,0 +1,118 @@
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+0024:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\Apple Braille Outline 8 Dot.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\Supplemental\\Baghdad.ttc"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\Supplemental\\Gujarati Sangam MN.ttc"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\Supplemental\\Gurmukhi Sangam MN.ttc"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\HelveticaNeue.ttc"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\Supplemental\\Hoefler Text Ornaments.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\Supplemental\\ITFDevanagari.ttc"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\Supplemental\\ITFDevanagari.ttc"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\Supplemental\\Kailasa.ttc"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\KohinoorGujarati.ttc"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\Supplemental\\KufiStandardGK.ttc"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\Supplemental\\Nadeem.ttc"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-Regular.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-Black.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-Condensed.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-CondensedBlack.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-CondensedExtraBold.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-CondensedExtraLight.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-CondensedLight.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-CondensedMedium.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-CondensedSemiBold.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-CondensedThin.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-ExtraBold.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-ExtraCondensed.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-ExtraCondensedBlack.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-ExtraCondensedExtraBold.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-ExtraCondensedExtraLight.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-ExtraCondensedLight.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-ExtraCondensedMedium.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-ExtraCondensedSemiBold.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-ExtraCondensedThin.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-ExtraLight.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-Light.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-Medium.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-SemiBold.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-SemiCondensed.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-SemiCondensedBlack.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-SemiCondensedExtraBold.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-SemiCondensedExtraLight.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-SemiCondensedLight.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-SemiCondensedMedium.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-SemiCondensedSemiBold.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-SemiCondensedThin.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\Volumes\\data\\joe\\Library\\Fonts\\NotoSans-Thin.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\Supplemental\\Skia.ttf"
+0024:fixme:font:find_matching_face Untranslated charset 255
+0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\ZapfDingbats.ttf"
+0024:fixme:nls:GetFileMUIPath stub: 0x10, L"C:\\windows\\system32\\tzres.dll", (null), 000000000011E600, 0000000000287C60, 000000000011E608, 000000000011E5F8
+0024:fixme:nls:GetFileMUIPath stub: 0x10, L"C:\\windows\\system32\\tzres.dll", (null), 000000000011E600, 0000000000287C60, 000000000011E608, 000000000011E5F8
+0024:fixme:nls:GetFileMUIPath stub: 0x10, L"C:\\windows\\system32\\tzres.dll", (null), 000000000011E600, 0000000000287C60, 000000000011E608, 000000000011E5F8
+0024:fixme:gdiplus:resample_bitmap_pixel Unimplemented interpolation 7
+00c4:fixme:imm:ImeSetActiveContext (0x37b8d0, 0): stub
+00c4:fixme:imm:ImmReleaseContext (0000000000010020, 000000000037B8D0): stub
+0024:fixme:imm:ImeSetActiveContext (0x744e390, 1): stub
+0024:fixme:imm:ImmReleaseContext (0000000000010068, 000000000744E390): stub
+0024:fixme:uiautomation:UiaClientsAreListening ()
+0024:fixme:uiautomation:UiaClientsAreListening ()
+0024:fixme:uiautomation:UiaClientsAreListening ()
+0024:fixme:uiautomation:UiaClientsAreListening ()
+0024:fixme:uiautomation:UiaClientsAreListening ()
+0024:fixme:uiautomation:UiaClientsAreListening ()
+0024:fixme:uiautomation:UiaClientsAreListening ()
+0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000005007C, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010062, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001006A, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001006C, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000090074, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001004E, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010054, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001007A, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010056, 0, 0, 0000000000000000) stub!

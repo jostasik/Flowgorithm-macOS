@@ -32,6 +32,8 @@
 #define IS_SYSTEM_MAC_OS_10_13_OR_SUPERIOR  [VMMComputerInformation isSystemMacOsEqualOrSuperiorTo:@"10.13"]  // High Sierra
 #define IS_SYSTEM_MAC_OS_10_14_OR_SUPERIOR  [VMMComputerInformation isSystemMacOsEqualOrSuperiorTo:@"10.14"]  // Mojave
 #define IS_SYSTEM_MAC_OS_10_15_OR_SUPERIOR  [VMMComputerInformation isSystemMacOsEqualOrSuperiorTo:@"10.15"]  // Catalina
+#define IS_SYSTEM_MAC_OS_11_0_OR_SUPERIOR   [VMMComputerInformation isSystemMacOsEqualOrSuperiorTo:@"11.0"]   // Big Sur
+#define IS_SYSTEM_NAC_OS_12_0_OR_SUPERIOR   [VMMComputerInformation isSystemMacOsEqualOrSuperiorTo:@"12.0"]   // Monterey
 
 #define IS_SYSTEM_MAC_OS_LION_OR_SUPERIOR           IS_SYSTEM_MAC_OS_10_7_OR_SUPERIOR
 #define IS_SYSTEM_MAC_OS_MOUNTAIN_LION_OR_SUPERIOR  IS_SYSTEM_MAC_OS_10_8_OR_SUPERIOR
@@ -42,6 +44,8 @@
 #define IS_SYSTEM_MAC_OS_HIGH_SIERRA_OR_SUPERIOR    IS_SYSTEM_MAC_OS_10_13_OR_SUPERIOR
 #define IS_SYSTEM_MAC_OS_MOJAVE_OR_SUPERIOR         IS_SYSTEM_MAC_OS_10_14_OR_SUPERIOR
 #define IS_SYSTEM_MAC_OS_CATALINA_OR_SUPERIOR       IS_SYSTEM_MAC_OS_10_15_OR_SUPERIOR
+#define IS_SYSTEM_MAC_OS_BIG_SUR_OR_SUPERIOR        IS_SYSTEM_MAC_OS_11_0_OR_SUPERIOR
+#define IS_SYSTEM_MAC_OS_MONTRREY_OR_SUPERIOR       IS_SYSTEM_MAC_OS_12_0_OR_SUPERIOR
 
 
 // Checks if deprecated frameworks are still available

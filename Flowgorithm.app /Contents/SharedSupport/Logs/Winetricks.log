@@ -1,0 +1,1198 @@
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Using winetricks 20220411-next - sha256sum: 5b073fdbe7ac7c0a8f525bd3ef4d070b9cd040cbb185bcbfbbd6db760f072f67 with wine-7.7 (WineskinCX 22.1.0) and WINEARCH=win64
+Executing w_do_call allfonts
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_allfonts 
+Executing w_do_call andale
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_andale 
+Executing mkdir -p /Volumes/data/joe/.cache/winetricks/corefonts
+Executing cd /Volumes/data/joe/.cache/winetricks/corefonts
+Downloading https://mirrors.kernel.org/gentoo/distfiles/andale32.exe to /Volumes/data/joe/.cache/winetricks/corefonts
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 16  193k   16 32407    0     0  36466      0  0:00:05 --:--:--  0:00:05 37036100  193k  100  193k    0     0   180k      0  0:00:01  0:00:01 --:--:--  183k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp /Volumes/data/joe/.cache/winetricks/corefonts/andale32.exe
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_90ad6a9f_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_f6204652_39987.reg
+Executing w_do_call arial
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_arial 
+Executing cd /Volumes/data/joe/.cache/winetricks/corefonts
+Downloading https://mirrors.kernel.org/gentoo/distfiles/arial32.exe to /Volumes/data/joe/.cache/winetricks/corefonts
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 23  541k   23  127k    0     0  77426      0  0:00:07  0:00:01  0:00:06 78036 23  541k   23  127k    0     0  48738      0  0:00:11  0:00:02  0:00:09 48992 88  541k   88  479k    0     0   154k      0  0:00:03  0:00:03 --:--:--  154k100  541k  100  541k    0     0   173k      0  0:00:03  0:00:03 --:--:--  174k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cd /Volumes/data/joe/.cache/winetricks/corefonts
+Downloading https://mirrors.kernel.org/gentoo/distfiles/arialb32.exe to /Volumes/data/joe/.cache/winetricks/corefonts
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0 48  164k   48 81559    0     0  13933      0  0:00:12  0:00:05  0:00:07 17615100  164k  100  164k    0     0  28681      0  0:00:05  0:00:05 --:--:-- 46253
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp /Volumes/data/joe/.cache/winetricks/corefonts/arial32.exe
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_304f5183_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_964415d4_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_1f616c49_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_16f0ad00_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_afb17c0c_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_4cd1fddd_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_dae52f18_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_f89c822c_39987.reg
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp /Volumes/data/joe/.cache/winetricks/corefonts/arialb32.exe
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_66d0267b_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_8067e78b_39987.reg
+Executing w_do_call baekmuk
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_baekmuk 
+Executing mkdir -p /Volumes/data/joe/.cache/winetricks/baekmuk
+Executing cd /Volumes/data/joe/.cache/winetricks/baekmuk
+Downloading https://deb.debian.org/debian/pool/main/f/fonts-baekmuk/fonts-baekmuk_2.2.orig.tar.gz to /Volumes/data/joe/.cache/winetricks/baekmuk
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 43 27.8M   43 11.9M    0     0  7300k      0  0:00:03  0:00:01  0:00:02 7371k 88 27.8M   88 24.7M    0     0  9458k      0  0:00:03  0:00:02  0:00:01 9515k100 27.8M  100 27.8M    0     0  9767k      0  0:00:02  0:00:02 --:--:-- 9819k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp
+Executing tar -zxf /Volumes/data/joe/.cache/winetricks/baekmuk/fonts-baekmuk_2.2.orig.tar.gz baekmuk-ttf-2.2/ttf
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_2672114c_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_860f1ee7_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_f9e2d49c_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_2e5ebc5a_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_b16881ef_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_1b631ed2_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_12f33d67_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_d1ac761a_39987.reg
+Executing w_do_call calibri
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_calibri 
+Executing mkdir -p /Volumes/data/joe/.cache/winetricks/PowerPointViewer
+Executing cd /Volumes/data/joe/.cache/winetricks/PowerPointViewer
+Downloading https://web.archive.org/web/20171225132744if_/https://download.microsoft.com/download/E/6/7/E675FFFC-2A6D-4AB0-B3EB-27C9F8C8F696/PowerPointViewer.exe to /Volumes/data/joe/.cache/winetricks/PowerPointViewer
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 60.2M    0 63298    0     0  32520      0  0:32:23  0:00:01  0:32:22 32779  0 60.2M    0  556k    0     0   195k      0  0:05:16  0:00:02  0:05:14  196k  2 60.2M    2 1532k    0     0   397k      0  0:02:35  0:00:03  0:02:32  399k  5 60.2M    5 3276k    0     0   677k      0  0:01:31  0:00:04  0:01:27  679k  8 60.2M    8 4972k    0     0   852k      0  0:01:12  0:00:05  0:01:07 1020k  9 60.2M    9 5596k    0     0   810k      0  0:01:16  0:00:06  0:01:10 1116k  9 60.2M    9 5676k    0     0   709k      0  0:01:27  0:00:08  0:01:19  993k  9 60.2M    9 5676k    0     0   630k      0  0:01:37  0:00:09  0:01:28  803k  9 60.2M    9 5676k    0     0   567k      0  0:01:48  0:00:10  0:01:38  463k  9 60.2M    9 5676k    0     0   515k      0  0:01:59  0:00:11  0:01:48  136k  9 60.2M    9 5996k    0     0   505k      0  0:02:02  0:00:11  0:01:51 82610 14 60.2M   14 8780k    0     0   683k      0  0:01:30  0:00:12  0:01:18  640k 18 60.2M   18 11.2M    0     0   835k      0  0:01:13  0:00:13  0:01:00 1219k 22 60.2M   22 13.8M    0     0   955k      0  0:01:04  0:00:14  0:00:50 1761k 26 60.2M   26 16.1M    0     0  1045k      0  0:00:59  0:00:15  0:00:44 2254k 28 60.2M   28 17.4M    0     0  1058k      0  0:00:58  0:00:16  0:00:42 2376k 32 60.2M   32 19.8M    0     0  1138k      0  0:00:54  0:00:17  0:00:37 2313k 37 60.2M   37 22.3M    0     0  1210k      0  0:00:51  0:00:18  0:00:33 2228k 40 60.2M   40 24.5M    0     0  1266k      0  0:00:48  0:00:19  0:00:29 2187k 44 60.2M   44 26.8M    0     0  1318k      0  0:00:46  0:00:20  0:00:26 2182k 46 60.2M   46 27.9M    0     0  1307k      0  0:00:47  0:00:21  0:00:26 2144k 49 60.2M   49 29.5M    0     0  1324k      0  0:00:46  0:00:22  0:00:24 1989k 52 60.2M   52 31.4M    0     0  1352k      0  0:00:45  0:00:23  0:00:22 1898k 55 60.2M   55 33.4M    0     0  1378k      0  0:00:44  0:00:24  0:00:20 1820k 58 60.2M   58 35.4M    0     0  1406k      0  0:00:43  0:00:25  0:00:18 1775k 60 60.2M   60 36.4M    0     0  1382k      0  0:00:44  0:00:26  0:00:18 1700k 62 60.2M   62 37.7M    0     0  1387k      0  0:00:44  0:00:27  0:00:17 1675k 65 60.2M   65 39.6M    0     0  1406k      0  0:00:43  0:00:28  0:00:15 1664k 69 60.2M   69 41.6M    0     0  1427k      0  0:00:43  0:00:29  0:00:14 1672k 72 60.2M   72 43.7M    0     0  1450k      0  0:00:42  0:00:30  0:00:12 1677k 74 60.2M   74 44.6M    0     0  1424k      0  0:00:43  0:00:32  0:00:11 1646k 76 60.2M   76 46.0M    0     0  1435k      0  0:00:42  0:00:32  0:00:10 1702k 79 60.2M   79 48.1M    0     0  1457k      0  0:00:42  0:00:33  0:00:09 1752k 83 60.2M   83 50.2M    0     0  1476k      0  0:00:41  0:00:34  0:00:07 1767k 87 60.2M   87 52.4M    0     0  1498k      0  0:00:41  0:00:35  0:00:06 1794k 88 60.2M   88 53.4M    0     0  1478k      0  0:00:41  0:00:37  0:00:04 1829k 91 60.2M   91 55.2M    0     0  1494k      0  0:00:41  0:00:37  0:00:04 1874k 95 60.2M   95 57.5M    0     0  1518k      0  0:00:40  0:00:38  0:00:02 1929k 98 60.2M   98 59.1M    0     0  1520k      0  0:00:40  0:00:39  0:00:01 1833k100 60.2M  100 60.2M    0     0  1517k      0  0:00:40  0:00:40 --:--:-- 1656k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F ppviewer.cab /Volumes/data/joe/.cache/winetricks/PowerPointViewer/PowerPointViewer.exe
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F CALIBRI*.TTF /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab
+/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab: WARNING; possible 5968 extra bytes at end of file.
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_8cce87a2_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_d68fdc07_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_81f6d9de_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_65606c50_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_7a5dcd41_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_f3cba564_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_9c057b24_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_4529b06b_39987.reg
+Executing w_do_call cambria
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_cambria 
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F ppviewer.cab /Volumes/data/joe/.cache/winetricks/PowerPointViewer/PowerPointViewer.exe
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F CAMBRIA*.TT* /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab
+/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab: WARNING; possible 5968 extra bytes at end of file.
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_07df497f_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_76daba71_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_f14f7f3a_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_1596135c_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_93707456_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_4e05d69a_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_bd39a2ce_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_8231d24a_39987.reg
+Executing w_do_call candara
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_candara 
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F ppviewer.cab /Volumes/data/joe/.cache/winetricks/PowerPointViewer/PowerPointViewer.exe
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F CANDARA*.TTF /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab
+/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab: WARNING; possible 5968 extra bytes at end of file.
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_de98cb8f_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_b97ab9af_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_4c4ed6a2_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_87f3ff34_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_6bf9577a_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_16572985_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_da120c4a_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_0418ad51_39987.reg
+Executing w_do_call comicsans
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_comicsans 
+Executing cd /Volumes/data/joe/.cache/winetricks/corefonts
+Downloading https://mirrors.kernel.org/gentoo/distfiles/comic32.exe to /Volumes/data/joe/.cache/winetricks/corefonts
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 73  240k   73  175k    0     0   242k      0 --:--:-- --:--:-- --:--:--  248k100  240k  100  240k    0     0   328k      0 --:--:-- --:--:-- --:--:--  336k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp /Volumes/data/joe/.cache/winetricks/corefonts/comic32.exe
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_b59fdb6f_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_487ea6dc_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_39bed46a_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_1a737988_39987.reg
+Executing w_do_call consolas
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_consolas 
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F ppviewer.cab /Volumes/data/joe/.cache/winetricks/PowerPointViewer/PowerPointViewer.exe
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F CONSOLA*.TTF /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab
+/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab: WARNING; possible 5968 extra bytes at end of file.
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_d06119c4_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_7fb3a2bc_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_7a85ac1f_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_4abf1753_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_963ae653_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_f87d9bec_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_72805153_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_ab679ac3_39987.reg
+Executing w_do_call constantia
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_constantia 
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F ppviewer.cab /Volumes/data/joe/.cache/winetricks/PowerPointViewer/PowerPointViewer.exe
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F CONSTAN*.TTF /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab
+/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab: WARNING; possible 5968 extra bytes at end of file.
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_25fa1fb1_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_4bcebabe_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_d2db1c69_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_c74d8ec3_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_f0c26010_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_ae7c4943_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_f097ca42_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_584bbdbb_39987.reg
+Executing w_do_call corbel
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_corbel 
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F ppviewer.cab /Volumes/data/joe/.cache/winetricks/PowerPointViewer/PowerPointViewer.exe
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F CORBEL*.TTF /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab
+/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab: WARNING; possible 5968 extra bytes at end of file.
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_fbe93373_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_313ed549_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_6901c7fb_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_3a4efa1e_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_1081f009_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_2729c628_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_50d4f1f5_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_4c672bb7_39987.reg
+Executing w_do_call corefonts
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_corefonts 
+Executing w_do_call andale
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+andale already installed, skipping
+Executing w_do_call arial
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+arial already installed, skipping
+Executing w_do_call comicsans
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+comicsans already installed, skipping
+Executing w_do_call courier
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_courier 
+Executing cd /Volumes/data/joe/.cache/winetricks/corefonts
+Downloading https://mirrors.kernel.org/gentoo/distfiles/courie32.exe to /Volumes/data/joe/.cache/winetricks/corefonts
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  631k  100  631k    0     0   722k      0 --:--:-- --:--:-- --:--:--  733k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp /Volumes/data/joe/.cache/winetricks/corefonts/courie32.exe
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_7c2c4123_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_891b54d0_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_18981059_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_d5235b9d_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_ca9299dd_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_54cc9ff7_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_2add04a3_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_323957ce_39987.reg
+Executing w_do_call georgia
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_georgia 
+Executing cd /Volumes/data/joe/.cache/winetricks/corefonts
+Downloading https://mirrors.kernel.org/gentoo/distfiles/georgi32.exe to /Volumes/data/joe/.cache/winetricks/corefonts
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  383k  100  383k    0     0   409k      0 --:--:-- --:--:-- --:--:--  415k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp /Volumes/data/joe/.cache/winetricks/corefonts/georgi32.exe
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_7c0d8b91_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_537b121d_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_d2a59526_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_5996c7ae_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_4c1b3afe_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_d73b8d5d_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_7ad937dd_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_d7f60a67_39987.reg
+Executing w_do_call impact
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_impact 
+Executing cd /Volumes/data/joe/.cache/winetricks/corefonts
+Downloading https://mirrors.kernel.org/gentoo/distfiles/impact32.exe to /Volumes/data/joe/.cache/winetricks/corefonts
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  169k  100  169k    0     0   202k      0 --:--:-- --:--:-- --:--:--  206k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp /Volumes/data/joe/.cache/winetricks/corefonts/impact32.exe
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_85408d52_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_83bd4a0f_39987.reg
+Executing w_do_call times
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_times 
+Executing cd /Volumes/data/joe/.cache/winetricks/corefonts
+Downloading https://mirrors.kernel.org/gentoo/distfiles/times32.exe to /Volumes/data/joe/.cache/winetricks/corefonts
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  646k  100  646k    0     0   606k      0  0:00:01  0:00:01 --:--:--  614k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp /Volumes/data/joe/.cache/winetricks/corefonts/times32.exe
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_c7df04fe_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_882d004f_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_a7b0a685_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_9523176f_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_d6a6cd95_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_54e8fd8d_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_e1819b6c_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_12e799de_39987.reg
+Executing w_do_call trebuchet
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_trebuchet 
+Executing cd /Volumes/data/joe/.cache/winetricks/corefonts
+Downloading https://mirrors.kernel.org/gentoo/distfiles/trebuc32.exe to /Volumes/data/joe/.cache/winetricks/corefonts
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 27  348k   27 97943    0     0   140k      0  0:00:02 --:--:--  0:00:02  143k100  348k  100  348k    0     0   450k      0 --:--:-- --:--:-- --:--:--  458k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp /Volumes/data/joe/.cache/winetricks/corefonts/trebuc32.exe
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_8000236b_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_66ed7d3c_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_e03e6b06_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_4defd6cc_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_9d24ff53_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_9539cec7_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_c0ce2062_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_0d13f97a_39987.reg
+Executing w_do_call verdana
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_verdana 
+Executing cd /Volumes/data/joe/.cache/winetricks/corefonts
+Downloading https://mirrors.kernel.org/gentoo/distfiles/verdan32.exe to /Volumes/data/joe/.cache/winetricks/corefonts
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  343k  100  343k    0     0   465k      0 --:--:-- --:--:-- --:--:--  474k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp /Volumes/data/joe/.cache/winetricks/corefonts/verdan32.exe
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_1ae856a5_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_3b8c6ecc_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_9a3fa42a_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_dd6ee781_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_55447381_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_35f4f98b_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_fa2a389b_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_a88367ad_39987.reg
+Executing w_do_call webdings
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_webdings 
+Executing cd /Volumes/data/joe/.cache/winetricks/corefonts
+Downloading https://mirrors.kernel.org/gentoo/distfiles/webdin32.exe to /Volumes/data/joe/.cache/winetricks/corefonts
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 17  180k   17 32407    0     0  58768      0  0:00:03 --:--:--  0:00:03 60236100  180k  100  180k    0     0   249k      0 --:--:-- --:--:-- --:--:--  254k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp /Volumes/data/joe/.cache/winetricks/corefonts/webdin32.exe
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_405b24a4_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_70fc14d8_39987.reg
+Executing w_do_call courier
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+courier already installed, skipping
+Executing w_do_call droid
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_droid 
+Executing mkdir -p /Volumes/data/joe/.cache/winetricks/droid
+Executing cd /Volumes/data/joe/.cache/winetricks/droid
+Downloading https://github.com/android/platform_frameworks_base/blob/feef9887e8f8eb6f64fc1b4552c02efb5755cdc1/data/fonts/DroidSans-Bold.ttf?raw=true to /Volumes/data/joe/.cache/winetricks/droid
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  189k  100  189k    0     0   340k      0 --:--:-- --:--:-- --:--:--  340k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_f4837bf5_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_b0dc56f4_39987.reg
+Executing cd /Volumes/data/joe/.cache/winetricks/droid
+Downloading https://github.com/android/platform_frameworks_base/blob/feef9887e8f8eb6f64fc1b4552c02efb5755cdc1/data/fonts/DroidSansFallback.ttf?raw=true to /Volumes/data/joe/.cache/winetricks/droid
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 3847k  100 3847k    0     0  2678k      0  0:00:01  0:00:01 --:--:-- 2678k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_de08eb1b_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_085383a2_39987.reg
+Executing cd /Volumes/data/joe/.cache/winetricks/droid
+Downloading https://github.com/android/platform_frameworks_base/blob/feef9887e8f8eb6f64fc1b4552c02efb5755cdc1/data/fonts/DroidSansJapanese.ttf?raw=true to /Volumes/data/joe/.cache/winetricks/droid
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1145k  100 1145k    0     0  1491k      0 --:--:-- --:--:-- --:--:-- 1491k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_1581d5b7_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_52286413_39987.reg
+Executing cd /Volumes/data/joe/.cache/winetricks/droid
+Downloading https://github.com/android/platform_frameworks_base/blob/feef9887e8f8eb6f64fc1b4552c02efb5755cdc1/data/fonts/DroidSansMono.ttf?raw=true to /Volumes/data/joe/.cache/winetricks/droid
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  116k  100  116k    0     0   217k      0 --:--:-- --:--:-- --:--:--  217k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_ac56aec2_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_ba77b63c_39987.reg
+Executing cd /Volumes/data/joe/.cache/winetricks/droid
+Downloading https://github.com/android/platform_frameworks_base/blob/feef9887e8f8eb6f64fc1b4552c02efb5755cdc1/data/fonts/DroidSans.ttf?raw=true to /Volumes/data/joe/.cache/winetricks/droid
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  186k  100  186k    0     0   346k      0 --:--:-- --:--:-- --:--:--  346k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_22fb4900_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_8c694556_39987.reg
+Executing cd /Volumes/data/joe/.cache/winetricks/droid
+Downloading https://github.com/android/platform_frameworks_base/blob/feef9887e8f8eb6f64fc1b4552c02efb5755cdc1/data/fonts/DroidSerif-BoldItalic.ttf?raw=true to /Volumes/data/joe/.cache/winetricks/droid
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  258k  100  258k    0     0   375k      0 --:--:-- --:--:-- --:--:--  731k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_732027ea_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_5a3967f7_39987.reg
+Executing cd /Volumes/data/joe/.cache/winetricks/droid
+Downloading https://github.com/android/platform_frameworks_base/blob/feef9887e8f8eb6f64fc1b4552c02efb5755cdc1/data/fonts/DroidSerif-Bold.ttf?raw=true to /Volumes/data/joe/.cache/winetricks/droid
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  244k  100  244k    0     0   280k      0 --:--:-- --:--:-- --:--:--  280k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_4d221499_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_dd150214_39987.reg
+Executing cd /Volumes/data/joe/.cache/winetricks/droid
+Downloading https://github.com/android/platform_frameworks_base/blob/feef9887e8f8eb6f64fc1b4552c02efb5755cdc1/data/fonts/DroidSerif-Italic.ttf?raw=true to /Volumes/data/joe/.cache/winetricks/droid
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  246k  100  246k    0     0   410k      0 --:--:-- --:--:-- --:--:--  410k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_e6dfba23_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_d105c299_39987.reg
+Executing cd /Volumes/data/joe/.cache/winetricks/droid
+Downloading https://github.com/android/platform_frameworks_base/blob/feef9887e8f8eb6f64fc1b4552c02efb5755cdc1/data/fonts/DroidSerif-Regular.ttf?raw=true to /Volumes/data/joe/.cache/winetricks/droid
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  243k  100  243k    0     0   445k      0 --:--:-- --:--:-- --:--:-- 1168k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_725abeae_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_e3293180_39987.reg
+Executing w_do_call eufonts
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_eufonts 
+Executing mkdir -p /Volumes/data/joe/.cache/winetricks/eufonts
+Executing cd /Volumes/data/joe/.cache/winetricks/eufonts
+Downloading https://sourceforge.net/projects/mscorefonts2/files/cabs/EUupdate.EXE to /Volumes/data/joe/.cache/winetricks/eufonts
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   726    0   726    0     0   2154      0 --:--:-- --:--:-- --:--:--  2254
+100   742    0   742    0     0   1589      0 --:--:-- --:--:-- --:--:--  1589
+100   983    0   983    0     0   1648      0 --:--:-- --:--:-- --:--:--  1648
+100   335  100   335    0     0    336      0 --:--:-- --:--:-- --:--:--   336
+ 70 1635k   70 1152k    0     0   892k      0  0:00:01  0:00:01 --:--:--  892k100 1635k  100 1635k    0     0  1217k      0  0:00:01  0:00:01 --:--:-- 9130k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp /Volumes/data/joe/.cache/winetricks/eufonts/EUupdate.EXE
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_304f5183_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_964415d4_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_1f616c49_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_16f0ad00_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_afb17c0c_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_4cd1fddd_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_dae52f18_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_f89c822c_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_c7df04fe_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_882d004f_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_a7b0a685_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_9523176f_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_d6a6cd95_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_54e8fd8d_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_e1819b6c_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_12e799de_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_8000236b_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_66ed7d3c_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_e03e6b06_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_4defd6cc_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_9d24ff53_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_9539cec7_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_c0ce2062_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_0d13f97a_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_1ae856a5_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_3b8c6ecc_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_ec2686ef_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_741f352a_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_55447381_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_35f4f98b_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_fa2a389b_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_a88367ad_39987.reg
+Executing w_do_call georgia
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+georgia already installed, skipping
+Executing w_do_call impact
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+impact already installed, skipping
+Executing w_do_call ipamona
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_ipamona 
+Executing mkdir -p /Volumes/data/joe/.cache/winetricks/ipamona
+Executing cd /Volumes/data/joe/.cache/winetricks/ipamona
+Downloading https://web.archive.org/web/20190309175311/http://www.geocities.jp/ipa_mona/opfc-ModuleHP-1.1.1_withIPAMonaFonts-1.0.8.tar.gz to /Volumes/data/joe/.cache/winetricks/ipamona
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  1 11.0M    1  175k    0     0   142k      0  0:01:19  0:00:01  0:01:18  144k  4 11.0M    4  556k    0     0   251k      0  0:00:44  0:00:02  0:00:42  253k 18 11.0M   18 2092k    0     0   648k      0  0:00:17  0:00:03  0:00:14  651k 34 11.0M   34 3932k    0     0   928k      0  0:00:12  0:00:04  0:00:08  931k 40 11.0M   40 4572k    0     0   800k      0  0:00:14  0:00:05  0:00:09  828k 40 11.0M   40 4572k    0     0   681k      0  0:00:16  0:00:06  0:00:10  802k 40 11.0M   40 4572k    0     0   592k      0  0:00:19  0:00:07  0:00:12  729k 40 11.0M   40 4572k    0     0   524k      0  0:00:21  0:00:08  0:00:13  451k 40 11.0M   40 4572k    0     0   470k      0  0:00:24  0:00:09  0:00:15  116k 40 11.0M   40 4572k    0     0   426k      0  0:00:26  0:00:10  0:00:16     0 40 11.0M   40 4572k    0     0   389k      0  0:00:28  0:00:11  0:00:17     0 40 11.0M   40 4572k    0     0   359k      0  0:00:31  0:00:12  0:00:19     0 40 11.0M   40 4572k    0     0   332k      0  0:00:33  0:00:13  0:00:20     0 44 11.0M   44 5020k    0     0   353k      0  0:00:31  0:00:14  0:00:17  100k 91 11.0M   91 10.0M    0     0   676k      0  0:00:16  0:00:15  0:00:01 1278k100 11.0M  100 11.0M    0     0   734k      0  0:00:15  0:00:15 --:--:-- 1847k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp
+Executing tar -zxf /Volumes/data/joe/.cache/winetricks/ipamona/opfc-ModuleHP-1.1.1_withIPAMonaFonts-1.0.8.tar.gz opfc-ModuleHP-1.1.1_withIPAMonaFonts-1.0.8/fonts
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_3ecc498f_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_f782bb6d_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_986c4662_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_7dd68f43_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_75e74b81_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_fbe0fe96_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_31b469f0_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_bede4f18_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_19f81954_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_c744bac9_39987.reg
+Executing w_do_call liberation
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_liberation 
+Executing mkdir -p /Volumes/data/joe/.cache/winetricks/liberation
+Executing cd /Volumes/data/joe/.cache/winetricks/liberation
+Downloading https://releases.pagure.org/liberation-fonts/liberation-fonts-ttf-1.07.4.tar.gz to /Volumes/data/joe/.cache/winetricks/liberation
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1302k  100 1302k    0     0  1656k      0 --:--:-- --:--:-- --:--:-- 1689k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp
+Executing tar -zxf /Volumes/data/joe/.cache/winetricks/liberation/liberation-fonts-ttf-1.07.4.tar.gz
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_451b24f8_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_fa6e7290_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_ffee55da_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_c6eaa6b9_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_098c1e00_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_1c02ff7b_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_169c8ff0_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_92887408_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_240c897a_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_0e17d0e6_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_0dab8fcf_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_04e9af7b_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_00e0e07e_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_972e1400_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_63f0bfa4_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_46a265aa_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_5f90e5b8_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_a0c7886f_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_819460bd_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_d01dbbfb_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_50ab0138_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_50d4340e_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_6a3c6ec1_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_8b59c14a_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_038a1733_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_29d5868b_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_425c57e7_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_33c2f464_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_09029159_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_5d1d64ae_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_69df8fd1_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_ced8433d_39987.reg
+Executing w_do_call lucida
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_lucida 
+Executing mkdir -p /Volumes/data/joe/.cache/winetricks/lucida
+Executing cd /Volumes/data/joe/.cache/winetricks/lucida
+Downloading http://ftpmirror.your.org/pub/misc/ftp.microsoft.com/bussys/winnt/winnt-public/fixes/usa/NT40TSE/hotfixes-postSP3/Euro-fix/eurofixi.exe to /Volumes/data/joe/.cache/winetricks/lucida
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1884k  100 1884k    0     0  5094k      0 --:--:-- --:--:-- --:--:-- 5324k
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F lucon.ttf /Volumes/data/joe/.cache/winetricks/lucida/eurofixi.exe
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_a7a4a879_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_b936fe59_39987.reg
+Executing w_do_call meiryo
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_meiryo 
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F ppviewer.cab /Volumes/data/joe/.cache/winetricks/PowerPointViewer/PowerPointViewer.exe
+Executing cabextract -q -d /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp -F MEIRYO*.TTC /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab
+/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/ppviewer.cab: WARNING; possible 5968 extra bytes at end of file.
+------------------------------------------------------
+warning: Running wineserver -w. This will hang until all wine processes in prefix=/Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix terminate
+------------------------------------------------------
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_1e6e5775_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_f714488c_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_a0c7fe1c_39987.reg
+Executing wine C:\windows\syswow64\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing wine64 C:\windows\regedit.exe /S C:\windows\Temp\_register-font.reg
+Executing cp /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp/_register-font.reg /var/folders/lf/5_k3j45s10b0flhh00s0f83m0000gn/T//winetricks.7RUO2u10/_reg_4008e493_39987.reg
+Executing w_do_call opensymbol
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Executing load_opensymbol 
+Executing mkdir -p /Volumes/data/joe/.cache/winetricks/opensymbol
+Executing cd /Volumes/data/joe/.cache/winetricks/opensymbol
+Downloading https://cdn-aws.deb.debian.org/debian-security/pool/updates/main/libr/libreoffice/fonts-opensymbol_102.10+LibO6.1.5-3+deb10u4_all.deb to /Volumes/data/joe/.cache/winetricks/opensymbol
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   281  100   281    0     0   1248      0 --:--:-- --:--:-- --:--:--  1325
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Wineskin.app/Contents/Resources
+------------------------------------------------------
+SHA256 mismatch!
+
+URL: https://cdn-aws.deb.debian.org/debian-security/pool/updates/main/libr/libreoffice/fonts-opensymbol_102.10+LibO6.1.5-3+deb10u4_all.deb
+Downloaded: 56e752b41841458771a9f178070daef7b0b90e83f4d2a22fadeac5218df1cefd
+Expected: 1b2ab1e8eeb9a3a4a07e4a1c9bf539bb721734bf8b9881f4d0b8e71e822cecde
+
+This is often the result of an updated package such as vcrun2019.
+If you are willing to accept the risk, you can bypass this check.
+Alternatively, you may use the --force option to ignore this check entirely.
+
+Continue anyway?
+------------------------------------------------------
+------------------------------------------------------
+Unattended mode, not prompting for confirmation
+------------------------------------------------------
+Executing cd /Volumes/data/joe/Applications/Wineskin/Flowgorithm.app/Contents/SharedSupport/prefix/drive_c/windows/temp
+Executing ar x /Volumes/data/joe/.cache/winetricks/opensymbol/fonts-opensymbol_102.10+LibO6.1.5-3+deb10u4_all.deb data.tar.xz
+ar: /Volumes/data/joe/.cache/winetricks/opensymbol/fonts-opensymbol_102.10+LibO6.1.5-3+deb10u4_all.deb: Inappropriate file type or format
+------------------------------------------------------
+warning: Note: command ar x /Volumes/data/joe/.cache/winetricks/opensymbol/fonts-opensymbol_102.10+LibO6.1.5-3+deb10u4_all.deb data.tar.xz returned status 1. Aborting.
+------------------------------------------------------
