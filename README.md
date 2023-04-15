@@ -1,9 +1,6 @@
 # Flowgorithm for MacOS
-<div style="float:right; margin-left:10px;">
-    <img src="image_filename.jpg" alt="Image Description">
-</div>
 
-<p>Flowgorithm is a beginner-friendly programming language based on simple graphical flowcharts. It supports a variety of programming languages, including AppleScript, Bash, C#, C++, Java, JavaScript, PHP, Powershell, Python, Ruby, Swift, SQL, TypeScript, Visual Basic .NET, and more! Flowgorithm provides an easy-to-understand output and a graphical variable watch window. You can even convert your flowcharts to real live code!</p>
+Flowgorithm is a beginner-friendly programming language based on simple graphical flowcharts. It supports a variety of programming languages, including AppleScript, Bash, C#, C++, Java, JavaScript, PHP, Powershell, Python, Ruby, Swift, SQL, TypeScript, Visual Basic .NET, and more! Flowgorithm provides an easy-to-understand output and a graphical variable watch window. You can even convert your flowcharts to real live code!
 
 ## Installation
 
