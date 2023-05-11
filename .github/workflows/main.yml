@@ -1,7 +1,0 @@
-...
-    steps:
-      - name: macOS pkg install
-        id: install-pkg
-        uses: joncrain/macos-pkg-install@v1.0
-        with:
-          pkg_url: https://github.com/jostasik/Flowgorithm-macOS/releases/download/v3.4.2-beta/Flowgorithm-v3.4.2.pkg
