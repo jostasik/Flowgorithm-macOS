@@ -13,7 +13,7 @@ Hardware:
       Hyper-Threading Technology: Enabled
       Memory: 44 GB
       System Firmware Version: 9999.999.999.999.999
-      OS Loader Version: 540.120.3~19
+      OS Loader Version: 540.120.3~22
       SMC Version (system): 9.9999
       SMC Version (processor tray): 1.39f5
 
@@ -65,7 +65,7 @@ Hardware:
       Hyper-Threading Technology: Enabled
       Memory: 44 GB
       System Firmware Version: 9999.999.999.999.999
-      OS Loader Version: 540.120.3~19
+      OS Loader Version: 540.120.3~22
       SMC Version (system): 9.9999
       SMC Version (processor tray): 1.39f5
 
@@ -117,7 +117,7 @@ Hardware:
       Hyper-Threading Technology: Enabled
       Memory: 44 GB
       System Firmware Version: 9999.999.999.999.999
-      OS Loader Version: 540.120.3~19
+      OS Loader Version: 540.120.3~22
       SMC Version (system): 9.9999
       SMC Version (processor tray): 1.39f5
 
@@ -169,7 +169,7 @@ Hardware:
       Hyper-Threading Technology: Enabled
       Memory: 44 GB
       System Firmware Version: 9999.999.999.999.999
-      OS Loader Version: 540.120.3~19
+      OS Loader Version: 540.120.3~22
       SMC Version (system): 9.9999
       SMC Version (processor tray): 1.39f5
 
@@ -221,7 +221,7 @@ Hardware:
       Hyper-Threading Technology: Enabled
       Memory: 44 GB
       System Firmware Version: 9999.999.999.999.999
-      OS Loader Version: 540.120.3~19
+      OS Loader Version: 540.120.3~22
       SMC Version (system): 9.9999
       SMC Version (processor tray): 1.39f5
 
@@ -273,7 +273,7 @@ Hardware:
       Hyper-Threading Technology: Enabled
       Memory: 44 GB
       System Firmware Version: 9999.999.999.999.999
-      OS Loader Version: 540.120.3~19
+      OS Loader Version: 540.120.3~22
       SMC Version (system): 9.9999
       SMC Version (processor tray): 1.39f5
 
@@ -325,59 +325,7 @@ Hardware:
       Hyper-Threading Technology: Enabled
       Memory: 44 GB
       System Firmware Version: 9999.999.999.999.999
-      OS Loader Version: 540.120.3~19
-      SMC Version (system): 9.9999
-      SMC Version (processor tray): 1.39f5
-
-Graphics/Displays:
-
-    AMD Radeon R9 280X:
-
-      Chipset Model: AMD Radeon R9 280X
-      Type: GPU
-      Bus: PCIe
-      Slot: Slot-1
-      PCIe Lane Width: x16
-      VRAM (Total): 3 GB
-      Vendor: AMD (0x1002)
-      Device ID: 0x6798
-      Revision ID: 0x0000
-      Metal: Supported
-      Displays:
-        HP 27q:
-          Resolution: 2560 x 1440 (QHD/WQHD - Wide Quad High Definition)
-          UI Looks like: 2560 x 1440 @ 60.00Hz
-          Framebuffer Depth: 30-Bit Color (ARGB2101010)
-          Display Serial Number: CNK8271K4L  
-          Main Display: Yes
-          Mirror: Off
-          Online: Yes
-          Rotation: Supported
-        DELL P2217H:
-          Resolution: 1920 x 1080 (1080p FHD - Full High Definition)
-          UI Looks like: 1920 x 1080 @ 60.00Hz
-          Framebuffer Depth: 30-Bit Color (ARGB2101010)
-          Display Serial Number: 668VC7CK464U
-          Mirror: Off
-          Online: Yes
-          Rotation: Supported
-
-Hardware:
-
-    Hardware Overview:
-
-      Model Name: Mac Pro
-      Model Identifier: MacPro5,1
-      Processor Name: 6-Core Intel Xeon
-      Processor Speed: 3.33 GHz
-      Number of Processors: 2
-      Total Number of Cores: 12
-      L2 Cache (per Core): 256 KB
-      L3 Cache (per Processor): 12 MB
-      Hyper-Threading Technology: Enabled
-      Memory: 44 GB
-      System Firmware Version: 9999.999.999.999.999
-      OS Loader Version: 540.120.3~19
+      OS Loader Version: 540.120.3~22
       SMC Version (system): 9.9999
       SMC Version (processor tray): 1.39f5
 

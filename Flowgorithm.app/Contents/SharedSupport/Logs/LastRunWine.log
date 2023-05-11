@@ -92,14 +92,14 @@
 0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\Supplemental\\Skia.ttf"
 0024:fixme:font:find_matching_face Untranslated charset 255
 0024:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\System\\Library\\Fonts\\ZapfDingbats.ttf"
-0024:fixme:nls:GetFileMUIPath stub: 0x10, L"C:\\windows\\system32\\tzres.dll", (null), 000000000011E600, 0000000000287C60, 000000000011E608, 000000000011E5F8
-0024:fixme:nls:GetFileMUIPath stub: 0x10, L"C:\\windows\\system32\\tzres.dll", (null), 000000000011E600, 0000000000287C60, 000000000011E608, 000000000011E5F8
-0024:fixme:nls:GetFileMUIPath stub: 0x10, L"C:\\windows\\system32\\tzres.dll", (null), 000000000011E600, 0000000000287C60, 000000000011E608, 000000000011E5F8
+0024:fixme:nls:GetFileMUIPath stub: 0x10, L"C:\\windows\\system32\\tzres.dll", (null), 000000000011E600, 0000000000289B90, 000000000011E608, 000000000011E5F8
+0024:fixme:nls:GetFileMUIPath stub: 0x10, L"C:\\windows\\system32\\tzres.dll", (null), 000000000011E600, 0000000000289B90, 000000000011E608, 000000000011E5F8
+0024:fixme:nls:GetFileMUIPath stub: 0x10, L"C:\\windows\\system32\\tzres.dll", (null), 000000000011E600, 0000000000289B90, 000000000011E608, 000000000011E5F8
 0024:fixme:gdiplus:resample_bitmap_pixel Unimplemented interpolation 7
-00c4:fixme:imm:ImeSetActiveContext (0x37b8d0, 0): stub
-00c4:fixme:imm:ImmReleaseContext (0000000000010020, 000000000037B8D0): stub
-0024:fixme:imm:ImeSetActiveContext (0x744e390, 1): stub
-0024:fixme:imm:ImmReleaseContext (0000000000010068, 000000000744E390): stub
+00c4:fixme:imm:ImeSetActiveContext (0x37bb50, 0): stub
+00c4:fixme:imm:ImmReleaseContext (0000000000010020, 000000000037BB50): stub
+0024:fixme:imm:ImeSetActiveContext (0x67a2010, 1): stub
+0024:fixme:imm:ImmReleaseContext (0000000000010068, 00000000067A2010): stub
 0024:fixme:uiautomation:UiaClientsAreListening ()
 0024:fixme:uiautomation:UiaClientsAreListening ()
 0024:fixme:uiautomation:UiaClientsAreListening ()
@@ -107,12 +107,22 @@
 0024:fixme:uiautomation:UiaClientsAreListening ()
 0024:fixme:uiautomation:UiaClientsAreListening ()
 0024:fixme:uiautomation:UiaClientsAreListening ()
-0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000005007C, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaClientsAreListening ()
+0024:fixme:uiautomation:UiaClientsAreListening ()
+0024:fixme:uiautomation:UiaClientsAreListening ()
+0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010086, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010088, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001008C, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010090, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010094, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010098, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaClientsAreListening ()
+0024:fixme:uiautomation:UiaClientsAreListening ()
+0024:fixme:uiautomation:UiaClientsAreListening ()
 0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010062, 0, 0, 0000000000000000) stub!
 0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001006A, 0, 0, 0000000000000000) stub!
 0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001006C, 0, 0, 0000000000000000) stub!
-0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000090074, 0, 0, 0000000000000000) stub!
-0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001004E, 0, 0, 0000000000000000) stub!
-0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010054, 0, 0, 0000000000000000) stub!
-0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001007A, 0, 0, 0000000000000000) stub!
 0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010056, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000003007A, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010054, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001004E, 0, 0, 0000000000000000) stub!

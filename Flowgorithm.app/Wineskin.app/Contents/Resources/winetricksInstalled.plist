@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WS-Installed</key>
+	<array>
+		<string></string>
+		<string>andale</string>
+		<string>arial</string>
+		<string>baekmuk</string>
+		<string>calibri</string>
+		<string>cambria</string>
+		<string>candara</string>
+		<string>comicsans</string>
+		<string>consolas</string>
+		<string>constantia</string>
+		<string>corbel</string>
+		<string>corefonts</string>
+		<string>courier</string>
+		<string>droid</string>
+		<string>eufonts</string>
+		<string>georgia</string>
+		<string>impact</string>
+		<string>ipamona</string>
+		<string>liberation</string>
+		<string>lucida</string>
+		<string>meiryo</string>
+		<string>times</string>
+		<string>trebuchet</string>
+		<string>verdana</string>
+		<string>webdings</string>
+	</array>
+</dict>
+</plist>
