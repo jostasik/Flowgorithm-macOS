@@ -93,8 +93,8 @@ WINE REGISTRY Version 2
 "WindowFrame"="158 158 158"
 "WindowText"="0 0 0"
 
-[Control Panel\\Desktop] 1681194551
-#time=1d96c3eed87475e
+[Control Panel\\Desktop] 1683801072
+#time=1d983f3b501f95c
 "ActiveWndTrackTimeout"=dword:00000000
 "BlockSendInputResets"="0"
 "CaretWidth"=dword:00000001
@@ -113,6 +113,7 @@ WINE REGISTRY Version 2
 "ForegroundFlashCount"=dword:00000003
 "ForegroundLockTimeout"=dword:00000000
 "IconTitleWrap"="1"
+"LogPixels"=dword:00000060
 "LowPowerActive"="0"
 "MenuShowDelay"="400"
 "UserPreferencesMask"=hex:30,00,02,80,12,00,00,00
@@ -120,15 +121,15 @@ WINE REGISTRY Version 2
 "WheelScrollChars"="3"
 "WheelScrollLines"="3"
 
-[Control Panel\\Desktop\\WindowMetrics] 1681194534
-#time=1d96c3ee39fad08
+[Control Panel\\Desktop\\WindowMetrics] 1683801098
+#time=1d983f3c4db0fb2
 "BorderWidth"="1"
 "CaptionFont"=hex:f5,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,bc,02,00,00,\
   00,00,00,00,00,00,00,22,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
-"CaptionHeight"="18"
-"CaptionWidth"="18"
+"CaptionHeight"="-270"
+"CaptionWidth"="-270"
 "IconFont"=hex:f5,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,\
   00,00,00,00,00,00,22,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
@@ -140,21 +141,21 @@ WINE REGISTRY Version 2
   00,00,00,00,00,00,22,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
-"MenuHeight"="18"
-"MenuWidth"="18"
+"MenuHeight"="-270"
+"MenuWidth"="-270"
 "MessageFont"=hex:f5,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
   00,00,00,00,00,00,00,22,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
 "PaddedBorderWidth"="0"
-"ScrollHeight"="17"
-"ScrollWidth"="17"
+"ScrollHeight"="-255"
+"ScrollWidth"="-255"
 "SmCaptionFont"=hex:f5,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,\
   00,00,00,00,00,00,00,00,22,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
-"SmCaptionHeight"="15"
-"SmCaptionWidth"="15"
+"SmCaptionHeight"="-225"
+"SmCaptionWidth"="-225"
 "StatusFont"=hex:f5,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
   00,00,00,00,00,00,00,22,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
@@ -584,10 +585,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Run] 1681194533
 #time=1d96c3ee2df38fc
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\ThemeManager] 1681194534
-#time=1d96c3ee3997528
+[Software\\Microsoft\\Windows\\CurrentVersion\\ThemeManager] 1683801098
+#time=1d983f3c4cea830
 "ColorName"="Blue"
-"DllName"="C:\\windows\\resources\\themes\\light\\light.msstyles"
+"DllName"="C:\\windows\\Resources\\Themes\\light\\light.msstyles"
 "FlatMenu"=dword:00000000
 "GradientCaption"=dword:00000001
 "IconTitleFont"=hex:f5,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,\
@@ -755,13 +756,17 @@ WINE REGISTRY Version 2
 "*vcomp140"="native,builtin"
 "*vcruntime140"="native,builtin"
 
-[Software\\Wine\\Fonts] 1683781351
-#time=1d983c5cad2956c
+[Software\\Wine\\FileOpenAssociations] 1683801098
+#time=1d983f3c4e515fc
+"Enable"="Y"
+
+[Software\\Wine\\Fonts] 1683801237
+#time=1d983f417876f12
 "Codepages"="1252,437"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1683781351
-#time=1d983c5cad8a402
+[Software\\Wine\\Fonts\\External Fonts] 1683801237
+#time=1d983f4178c4e1a
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Arial Unicode.ttf"
 "@Baekmuk Batang (TrueType)"="Z:\\Library\\Fonts\\batang.ttf"

@@ -98,8 +98,8 @@
 0024:fixme:gdiplus:resample_bitmap_pixel Unimplemented interpolation 7
 00c4:fixme:imm:ImeSetActiveContext (0x37bb50, 0): stub
 00c4:fixme:imm:ImmReleaseContext (0000000000010020, 000000000037BB50): stub
-0024:fixme:imm:ImeSetActiveContext (0x67a2010, 1): stub
-0024:fixme:imm:ImmReleaseContext (0000000000010068, 00000000067A2010): stub
+0024:fixme:imm:ImeSetActiveContext (0x6562f50, 1): stub
+0024:fixme:imm:ImmReleaseContext (0000000000010068, 0000000006562F50): stub
 0024:fixme:uiautomation:UiaClientsAreListening ()
 0024:fixme:uiautomation:UiaClientsAreListening ()
 0024:fixme:uiautomation:UiaClientsAreListening ()
@@ -107,22 +107,20 @@
 0024:fixme:uiautomation:UiaClientsAreListening ()
 0024:fixme:uiautomation:UiaClientsAreListening ()
 0024:fixme:uiautomation:UiaClientsAreListening ()
-0024:fixme:uiautomation:UiaClientsAreListening ()
-0024:fixme:uiautomation:UiaClientsAreListening ()
-0024:fixme:uiautomation:UiaClientsAreListening ()
-0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010086, 0, 0, 0000000000000000) stub!
-0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010088, 0, 0, 0000000000000000) stub!
-0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001008C, 0, 0, 0000000000000000) stub!
-0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010090, 0, 0, 0000000000000000) stub!
-0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010094, 0, 0, 0000000000000000) stub!
-0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010098, 0, 0, 0000000000000000) stub!
+0024:fixme:commdlg:IServiceProvider_fnQueryService Interface {e07010ec-bc17-44c0-97b0-46c7c95b9edc} requested from unknown service {e07010ec-bc17-44c0-97b0-46c7c95b9edc}
+0024:fixme:shell:ViewModeToListStyle ViewMode 0 not implemented
+0024:fixme:shell:IShellBrowser_fnSendControlMsg stub, 000000000C2CC320 (2, 1026, a003, 0, 000000000011C3C8)
+0024:fixme:shell:IShellBrowser_fnSendControlMsg stub, 000000000C2CC320 (2, 1026, a004, 0, 000000000011C3C8)
+0024:fixme:shell:IShellBrowser_fnSendControlMsg stub, 000000000C2CC320 (2, 1025, a003, 1, 000000000011C3C8)
+0024:fixme:shell:IShellBrowser_fnSendControlMsg stub, 000000000C2CC320 (2, 1025, a004, 1, 000000000011C3C8)
+0024:fixme:nstc:NSTC2_fnSetControlStyle2 mask & style (0x00000004) contains unsupported style(s): 0x00000004
 0024:fixme:uiautomation:UiaClientsAreListening ()
 0024:fixme:uiautomation:UiaClientsAreListening ()
 0024:fixme:uiautomation:UiaClientsAreListening ()
 0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010062, 0, 0, 0000000000000000) stub!
 0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001006A, 0, 0, 0000000000000000) stub!
 0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001006C, 0, 0, 0000000000000000) stub!
+0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001007A, 0, 0, 0000000000000000) stub!
 0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010056, 0, 0, 0000000000000000) stub!
-0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000003007A, 0, 0, 0000000000000000) stub!
 0024:fixme:uiautomation:UiaReturnRawElementProvider (0000000000010054, 0, 0, 0000000000000000) stub!
 0024:fixme:uiautomation:UiaReturnRawElementProvider (000000000001004E, 0, 0, 0000000000000000) stub!

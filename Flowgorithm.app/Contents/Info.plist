@@ -97,7 +97,7 @@
 	<key>Symlink Templates</key>
 	<string>$HOME/Templates</string>
 	<key>Symlinks In User Folder</key>
-	<true/>
+	<false/>
 	<key>Try To Use GPU Info</key>
 	<integer>0</integer>
 	<key>WINEDEBUG</key>
