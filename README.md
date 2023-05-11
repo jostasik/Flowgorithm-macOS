@@ -14,7 +14,7 @@ There are two ways to install Flowgorithm on your MacOS device.
 ```bash
 brew tap jostasik/homebrew-tap
 brew update
-brew install jostasik-flowgorithm
+brew install --no-quarantine jostasik-flowgorithm
 ```
 
 #### Option 2: Download the Latest Release
